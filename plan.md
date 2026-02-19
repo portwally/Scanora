@@ -116,11 +116,39 @@ Scanora/
 4. Offline-first: check cache before API call
 5. Cache TTL: 7 days for product data
 
-### Phase 5: Navigation & Settings
-1. `MainTabView` - tabs for Scan, History, Search, Settings
-2. `HistoryListView` - chronological scan history
-3. `SearchView` - manual product search
-4. `SettingsView` - language selection, cache management, about
+### Phase 5: Navigation & Settings ✅ REDESIGNED
+**Changed from tab-based to dashboard-centric navigation:**
+
+1. `HomeView` - Dashboard home screen with:
+   - Hero scan button (prominent, centered)
+   - Quick stats (total scans, favorites, today count)
+   - Recent scans list (last 5)
+   - Favorites section (last 3)
+   - Search button
+   - Settings gear in navigation bar
+
+2. `HomeViewModel` - Dashboard data provider:
+   - Fetches recent scans and favorites
+   - Calculates stats (totalScans, favoritesCount, todayCount)
+
+3. `MainTabView` - Now just wraps HomeView (no tabs)
+
+4. Navigation Flow:
+   ```
+   HomeView (Root)
+   ├─ Scan Button → ScannerView (fullScreenCover)
+   │   └─ Product Found → ProductDetailView (push)
+   │       └─ Done → Pop to Home
+   ├─ Recent/Favorite Row → ProductDetailView (push)
+   ├─ "See All" Recent → HistoryListView (push)
+   ├─ "See All" Favorites → HistoryListView (filtered)
+   ├─ Search Button → SearchView (push)
+   └─ Settings Gear → SettingsView (push)
+   ```
+
+5. `HistoryListView` - Now supports `showFavoritesOnly` parameter
+6. `ProductDetailView` - Uses NavigationStack pop (not dismiss)
+7. `SettingsView` - language selection, cache management, about
 
 ### Phase 6: Product Contribution
 1. `ContributeProductView` - form for missing products
@@ -183,21 +211,23 @@ Scanora/
 17. [ViewModels/ProductDetailViewModel.swift](Scanora/ViewModels/ProductDetailViewModel.swift) - Product logic
 18. [ViewModels/HistoryViewModel.swift](Scanora/ViewModels/HistoryViewModel.swift) - History logic
 19. [ViewModels/SearchViewModel.swift](Scanora/ViewModels/SearchViewModel.swift) - Search logic
-20. [Views/Scanner/ScannerView.swift](Scanora/Views/Scanner/ScannerView.swift) - Camera UI
-21. [Views/Scanner/ScannerOverlayView.swift](Scanora/Views/Scanner/ScannerOverlayView.swift) - Viewfinder overlay
-22. [Views/Product/ProductDetailView.swift](Scanora/Views/Product/ProductDetailView.swift) - Product info
-23. [Views/Product/NutriScoreBadge.swift](Scanora/Views/Product/NutriScoreBadge.swift) - Score display
-24. [Views/Product/AllergenWarningView.swift](Scanora/Views/Product/AllergenWarningView.swift) - Allergen UI
-25. [Views/History/HistoryListView.swift](Scanora/Views/History/HistoryListView.swift) - History list
-26. [Views/Search/SearchView.swift](Scanora/Views/Search/SearchView.swift) - Search UI
-27. [Views/Settings/SettingsView.swift](Scanora/Views/Settings/SettingsView.swift) - Settings
-28. [Views/Contribute/ContributeProductView.swift](Scanora/Views/Contribute/ContributeProductView.swift) - Add product
-29. [Views/MainTabView.swift](Scanora/Views/MainTabView.swift) - Tab navigation
-30. [Views/Common/ErrorView.swift](Scanora/Views/Common/ErrorView.swift) - Error states
-31. [Views/Common/LoadingView.swift](Scanora/Views/Common/LoadingView.swift) - Loading states
+20. [ViewModels/HomeViewModel.swift](Scanora/ViewModels/HomeViewModel.swift) - Dashboard stats & data ✅
+21. [Views/Home/HomeView.swift](Scanora/Views/Home/HomeView.swift) - Dashboard home screen ✅
+22. [Views/Scanner/ScannerView.swift](Scanora/Views/Scanner/ScannerView.swift) - Camera UI
+23. [Views/Scanner/ScannerOverlayView.swift](Scanora/Views/Scanner/ScannerOverlayView.swift) - Viewfinder overlay
+24. [Views/Product/ProductDetailView.swift](Scanora/Views/Product/ProductDetailView.swift) - Product info
+25. [Views/Product/NutriScoreBadge.swift](Scanora/Views/Product/NutriScoreBadge.swift) - Score display
+26. [Views/Product/AllergenWarningView.swift](Scanora/Views/Product/AllergenWarningView.swift) - Allergen UI
+27. [Views/History/HistoryListView.swift](Scanora/Views/History/HistoryListView.swift) - History list
+28. [Views/Search/SearchView.swift](Scanora/Views/Search/SearchView.swift) - Search UI
+29. [Views/Settings/SettingsView.swift](Scanora/Views/Settings/SettingsView.swift) - Settings
+30. [Views/Contribute/ContributeProductView.swift](Scanora/Views/Contribute/ContributeProductView.swift) - Add product
+31. [Views/MainTabView.swift](Scanora/Views/MainTabView.swift) - Home wrapper (no tabs)
+32. [Views/Common/ErrorView.swift](Scanora/Views/Common/ErrorView.swift) - Error states
+33. [Views/Common/LoadingView.swift](Scanora/Views/Common/LoadingView.swift) - Loading states
 
 ### Resources
-32. [Resources/Localizable.xcstrings](Scanora/Resources/Localizable.xcstrings) - All translations
+34. [Resources/Localizable.xcstrings](Scanora/Resources/Localizable.xcstrings) - All translations
 
 ## Verification Plan
 1. **Unit Tests**: NetworkService, API response parsing, barcode validation

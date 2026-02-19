@@ -3297,6 +3297,9 @@
         }
       }
     },
+    "Favorites" : {
+
+    },
     "Francais" : {
       "localizations" : {
         "de" : {
@@ -3597,6 +3600,16 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Pode conter vestígios de"
+          }
+        }
+      }
+    },
+    "No Favorites" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Keine Favoriten"
           }
         }
       }
@@ -4754,7 +4767,18 @@
         }
       }
     },
+    "Recent Scans" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Letzte Scans"
+          }
+        }
+      }
+    },
     "Scan" : {
+      "extractionState" : "stale",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -4800,6 +4824,16 @@
         }
       }
     },
+    "Scan Barcode" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Barcode scannen"
+          }
+        }
+      }
+    },
     "Scanner" : {
       "localizations" : {
         "de" : {
@@ -4809,6 +4843,9 @@
           }
         }
       }
+    },
+    "Scanora" : {
+
     },
     "Scanora needs camera access to scan barcodes on food products." : {
       "localizations" : {
@@ -4831,6 +4868,9 @@
       }
     },
     "Scanora uses Open Food Facts, a free and open database of food products from around the world." : {
+
+    },
+    "Scans" : {
 
     },
     "Search" : {
@@ -4942,6 +4982,16 @@
         }
       }
     },
+    "See All" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Alle anzeigen"
+          }
+        }
+      }
+    },
     "Settings" : {
       "localizations" : {
         "de" : {
@@ -5024,6 +5074,16 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Erfolg!"
+          }
+        }
+      }
+    },
+    "Swipe right on scans to add them to favorites" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nach rechts wischen, um Scans zu Favoriten hinzuzufügen"
           }
         }
       }

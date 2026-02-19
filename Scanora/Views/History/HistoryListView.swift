@@ -5,111 +5,128 @@ struct HistoryListView: View {
     @Environment(\.modelContext) private var modelContext
     @Query(sort: \ScanHistory.scannedAt, order: .reverse) private var scans: [ScanHistory]
 
+    var showFavoritesOnly: Bool = false
+
     @State private var searchText = ""
     @State private var showingDeleteConfirmation = false
-    @State private var selectedScan: ScanHistory?
 
     var body: some View {
-        NavigationStack {
-            Group {
-                if scans.isEmpty {
+        Group {
+            if filteredScans.isEmpty {
+                if showFavoritesOnly {
+                    ContentUnavailableView {
+                        Label("No Favorites", systemImage: "star")
+                    } description: {
+                        Text("Swipe right on scans to add them to favorites")
+                    }
+                } else {
                     EmptyHistoryView()
-                } else {
-                    List {
-                        ForEach(groupedScans.keys.sorted(by: >), id: \.self) { date in
-                            Section {
-                                ForEach(groupedScans[date] ?? []) { scan in
+                }
+            } else {
+                List {
+                    ForEach(groupedScans.keys.sorted(by: >), id: \.self) { date in
+                        Section {
+                            ForEach(groupedScans[date] ?? []) { scan in
+                                NavigationLink(destination: productDetailDestination(for: scan)) {
                                     HistoryRowView(scan: scan)
-                                        .swipeActions(edge: .trailing, allowsFullSwipe: true) {
-                                            Button(role: .destructive) {
-                                                deleteScan(scan)
-                                            } label: {
-                                                Label("Delete", systemImage: "trash")
-                                            }
-                                        }
-                                        .swipeActions(edge: .leading) {
-                                            Button {
-                                                toggleFavorite(scan)
-                                            } label: {
-                                                Label(
-                                                    scan.isFavorite ? "Unfavorite" : "Favorite",
-                                                    systemImage: scan.isFavorite ? "star.slash" : "star"
-                                                )
-                                            }
-                                            .tint(.yellow)
-                                        }
-                                        .onTapGesture {
-                                            selectedScan = scan
-                                        }
                                 }
-                            } header: {
-                                Text(formatSectionDate(date))
+                                .swipeActions(edge: .trailing, allowsFullSwipe: true) {
+                                    Button(role: .destructive) {
+                                        deleteScan(scan)
+                                    } label: {
+                                        Label("Delete", systemImage: "trash")
+                                    }
+                                }
+                                .swipeActions(edge: .leading) {
+                                    Button {
+                                        toggleFavorite(scan)
+                                    } label: {
+                                        Label(
+                                            scan.isFavorite ? "Unfavorite" : "Favorite",
+                                            systemImage: scan.isFavorite ? "star.slash" : "star"
+                                        )
+                                    }
+                                    .tint(.yellow)
+                                }
                             }
+                        } header: {
+                            Text(formatSectionDate(date))
                         }
                     }
-                    .listStyle(.insetGrouped)
-                    .searchable(text: $searchText, prompt: "Search history")
                 }
+                .listStyle(.insetGrouped)
+                .searchable(text: $searchText, prompt: "Search history")
             }
-            .navigationTitle("History")
-            .toolbar {
-                if !scans.isEmpty {
-                    ToolbarItem(placement: .topBarTrailing) {
-                        Menu {
-                            Button(role: .destructive) {
-                                showingDeleteConfirmation = true
-                            } label: {
-                                Label("Clear All History", systemImage: "trash")
-                            }
+        }
+        .navigationTitle(showFavoritesOnly ? "Favorites" : "History")
+        .toolbar {
+            if !filteredScans.isEmpty && !showFavoritesOnly {
+                ToolbarItem(placement: .topBarTrailing) {
+                    Menu {
+                        Button(role: .destructive) {
+                            showingDeleteConfirmation = true
                         } label: {
-                            Image(systemName: "ellipsis.circle")
+                            Label("Clear All History", systemImage: "trash")
                         }
-                    }
-                }
-            }
-            .confirmationDialog(
-                "Clear History",
-                isPresented: $showingDeleteConfirmation,
-                titleVisibility: .visible
-            ) {
-                Button("Clear All", role: .destructive) {
-                    clearAllHistory()
-                }
-                Button("Cancel", role: .cancel) {}
-            } message: {
-                Text("This will delete all your scan history. This action cannot be undone.")
-            }
-            .sheet(item: $selectedScan) { scan in
-                if let product = scan.toProduct() {
-                    ProductDetailView(product: product) {
-                        selectedScan = nil
-                    }
-                } else {
-                    // Minimal product view if cached data is unavailable
-                    MinimalProductView(scan: scan) {
-                        selectedScan = nil
+                    } label: {
+                        Image(systemName: "ellipsis.circle")
                     }
                 }
             }
         }
+        .confirmationDialog(
+            "Clear History",
+            isPresented: $showingDeleteConfirmation,
+            titleVisibility: .visible
+        ) {
+            Button("Clear All", role: .destructive) {
+                clearAllHistory()
+            }
+            Button("Cancel", role: .cancel) {}
+        } message: {
+            Text("This will delete all your scan history. This action cannot be undone.")
+        }
     }
 
-    // MARK: - Grouped Scans
+    // MARK: - Product Detail Destination
 
-    private var groupedScans: [Date: [ScanHistory]] {
-        let calendar = Calendar.current
+    @ViewBuilder
+    private func productDetailDestination(for scan: ScanHistory) -> some View {
+        if let cachedProduct = scan.cachedProduct {
+            ProductDetailView(product: cachedProduct.toDomain())
+        } else {
+            MinimalProductView(scan: scan)
+        }
+    }
 
+    // MARK: - Filtered Scans
+
+    private var filteredScans: [ScanHistory] {
         var filtered = scans
+
+        // Filter favorites if needed
+        if showFavoritesOnly {
+            filtered = filtered.filter { $0.isFavorite }
+        }
+
+        // Apply search filter
         if !searchText.isEmpty {
             let lowercased = searchText.lowercased()
-            filtered = scans.filter {
+            filtered = filtered.filter {
                 $0.productName.lowercased().contains(lowercased) ||
                 $0.brand?.lowercased().contains(lowercased) == true ||
                 $0.barcode.contains(lowercased)
             }
         }
 
-        return Dictionary(grouping: filtered) { scan in
+        return filtered
+    }
+
+    // MARK: - Grouped Scans
+
+    private var groupedScans: [Date: [ScanHistory]] {
+        let calendar = Calendar.current
+        return Dictionary(grouping: filteredScans) { scan in
             calendar.startOfDay(for: scan.scannedAt)
         }
     }
@@ -234,75 +251,6 @@ struct EmptyHistoryView: View {
             Label("No Scans Yet", systemImage: "clock.arrow.circlepath")
         } description: {
             Text("Products you scan will appear here")
-        }
-    }
-}
-
-// MARK: - Minimal Product View
-
-struct MinimalProductView: View {
-    let scan: ScanHistory
-    var onDismiss: (() -> Void)?
-
-    var body: some View {
-        NavigationStack {
-            VStack(spacing: 20) {
-                AsyncImage(url: scan.imageThumbnailURL) { phase in
-                    switch phase {
-                    case .success(let image):
-                        image
-                            .resizable()
-                            .aspectRatio(contentMode: .fit)
-                            .frame(maxHeight: 200)
-                            .clipShape(RoundedRectangle(cornerRadius: 12))
-                    default:
-                        RoundedRectangle(cornerRadius: 12)
-                            .fill(Color(.systemGray5))
-                            .frame(height: 200)
-                            .overlay {
-                                Image(systemName: "photo")
-                                    .font(.largeTitle)
-                                    .foregroundColor(.secondary)
-                            }
-                    }
-                }
-
-                Text(scan.productName)
-                    .font(.title2.bold())
-
-                if let brand = scan.brand {
-                    Text(brand)
-                        .font(.subheadline)
-                        .foregroundColor(.secondary)
-                }
-
-                if let nutriScore = scan.nutriScore {
-                    NutriScoreBadge(score: nutriScore)
-                }
-
-                HStack {
-                    Image(systemName: "barcode")
-                    Text(scan.barcode)
-                        .font(.caption.monospacedDigit())
-                }
-                .foregroundColor(.secondary)
-
-                Spacer()
-
-                Text("Full product details are no longer cached")
-                    .font(.caption)
-                    .foregroundColor(.secondary)
-            }
-            .padding()
-            .navigationTitle("Product")
-            .navigationBarTitleDisplayMode(.inline)
-            .toolbar {
-                ToolbarItem(placement: .topBarTrailing) {
-                    Button("Done") {
-                        onDismiss?()
-                    }
-                }
-            }
         }
     }
 }

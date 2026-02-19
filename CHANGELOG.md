@@ -5,6 +5,30 @@ All notable changes to Scanora will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.1.1] - 2026-02-19
+
+### Changed
+
+#### Navigation Redesign
+- **Dashboard Home Screen** - Replaced tab-based navigation with a central home dashboard
+- **Hero Scan Button** - Prominent scan button at the top of the home screen
+- **Quick Stats** - Display of total scans, favorites count, and today's scan count
+- **Recent Scans** - Shows last 5 scanned products on home screen
+- **Favorites Section** - Quick access to favorited products on home screen
+- **Full-Screen Scanner** - Scanner now opens as fullScreenCover overlay instead of tab
+- **Improved Flow** - "Done" button returns to home dashboard instead of scanner camera
+
+#### User Experience
+- After scanning a product, tapping "Done" returns to the home dashboard
+- All navigation flows through home screen (History, Search, Settings)
+- HistoryListView now supports filtering to show favorites only
+
+### Fixed
+- German localization now displays correctly for all new UI strings
+- ProductDetailView navigation works properly with NavigationStack
+
+---
+
 ## [0.1.0] - 2026-02-19
 
 ### Added

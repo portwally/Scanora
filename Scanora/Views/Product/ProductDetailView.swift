@@ -1,6 +1,8 @@
 import SwiftUI
 
 struct ProductDetailView: View {
+    @Environment(\.dismiss) private var dismiss
+
     let product: Product
     var onDismiss: (() -> Void)?
 
@@ -37,69 +39,71 @@ struct ProductDetailView: View {
     }
 
     var body: some View {
-        NavigationStack {
-            ScrollView {
-                VStack(alignment: .leading, spacing: 20) {
-                    // Product header
-                    ProductHeaderView(product: product)
+        ScrollView {
+            VStack(alignment: .leading, spacing: 20) {
+                // Product header
+                ProductHeaderView(product: product)
 
-                    // Health scores
-                    HealthScoresRow(
-                        nutriScore: product.nutriScore,
-                        novaGroup: product.novaGroup,
-                        ecoScore: product.ecoScore
+                // Health scores
+                HealthScoresRow(
+                    nutriScore: product.nutriScore,
+                    novaGroup: product.novaGroup,
+                    ecoScore: product.ecoScore
+                )
+
+                // Allergen warning (if any)
+                if product.hasAllergenWarnings {
+                    AllergenWarningView(
+                        allergens: product.allergens,
+                        traces: product.traces
                     )
+                    .padding(.horizontal)
+                }
 
-                    // Allergen warning (if any)
-                    if product.hasAllergenWarnings {
-                        AllergenWarningView(
+                // Section picker
+                Picker("Section", selection: $selectedSection) {
+                    ForEach(visibleSections) { section in
+                        Label(section.title, systemImage: section.icon)
+                            .tag(section as DetailSection?)
+                    }
+                }
+                .pickerStyle(.segmented)
+                .padding(.horizontal)
+
+                // Section content
+                Group {
+                    switch selectedSection {
+                    case .overview, .none:
+                        OverviewSection(product: product)
+                    case .nutrition:
+                        NutritionSection(nutriments: product.nutriments)
+                    case .ingredients:
+                        IngredientsSection(
+                            text: product.ingredientsText,
+                            ingredients: product.ingredients
+                        )
+                    case .allergens:
+                        AllergensSection(
                             allergens: product.allergens,
                             traces: product.traces
                         )
-                        .padding(.horizontal)
+                    case .origin:
+                        OriginSection(product: product)
                     }
-
-                    // Section picker
-                    Picker("Section", selection: $selectedSection) {
-                        ForEach(visibleSections) { section in
-                            Label(section.title, systemImage: section.icon)
-                                .tag(section as DetailSection?)
-                        }
-                    }
-                    .pickerStyle(.segmented)
-                    .padding(.horizontal)
-
-                    // Section content
-                    Group {
-                        switch selectedSection {
-                        case .overview, .none:
-                            OverviewSection(product: product)
-                        case .nutrition:
-                            NutritionSection(nutriments: product.nutriments)
-                        case .ingredients:
-                            IngredientsSection(
-                                text: product.ingredientsText,
-                                ingredients: product.ingredients
-                            )
-                        case .allergens:
-                            AllergensSection(
-                                allergens: product.allergens,
-                                traces: product.traces
-                            )
-                        case .origin:
-                            OriginSection(product: product)
-                        }
-                    }
-                    .padding(.horizontal)
                 }
-                .padding(.bottom, 32)
+                .padding(.horizontal)
             }
-            .navigationTitle(product.name)
-            .navigationBarTitleDisplayMode(.inline)
-            .toolbar {
-                ToolbarItem(placement: .topBarTrailing) {
-                    Button("Done") {
-                        onDismiss?()
+            .padding(.bottom, 32)
+        }
+        .navigationTitle(product.name)
+        .navigationBarTitleDisplayMode(.inline)
+        .toolbar {
+            ToolbarItem(placement: .topBarTrailing) {
+                Button("Done") {
+                    if let onDismiss {
+                        onDismiss()
+                    } else {
+                        dismiss()
                     }
                 }
             }
