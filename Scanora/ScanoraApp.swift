@@ -6,12 +6,36 @@
 //
 
 import SwiftUI
+import SwiftData
 
 @main
 struct ScanoraApp: App {
+    let modelContainer: ModelContainer
+
+    init() {
+        do {
+            let schema = Schema([
+                CachedProduct.self,
+                ScanHistory.self
+            ])
+            let modelConfiguration = ModelConfiguration(
+                schema: schema,
+                isStoredInMemoryOnly: false,
+                cloudKitDatabase: .none
+            )
+            modelContainer = try ModelContainer(
+                for: schema,
+                configurations: [modelConfiguration]
+            )
+        } catch {
+            fatalError("Could not initialize ModelContainer: \(error)")
+        }
+    }
+
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MainTabView()
         }
+        .modelContainer(modelContainer)
     }
 }
