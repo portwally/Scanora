@@ -1,6 +1,98 @@
 {
   "sourceLanguage" : "en",
   "strings" : {
+    "  of which saturates" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "  davon gesättigte Fettsäuren"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "  de las cuales saturadas"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "  dont acides gras saturés"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "  di cui acidi grassi saturi"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "  waarvan verzadigd"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "  w tym kwasy tłuszczowe nasycone"
+          }
+        },
+        "pt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "  das quais saturadas"
+          }
+        }
+      }
+    },
+    "  of which sugars" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "  davon Zucker"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "  de los cuales azúcares"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "  dont sucres"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "  di cui zuccheri"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "  waarvan suikers"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "  w tym cukry"
+          }
+        },
+        "pt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "  dos quais açúcares"
+          }
+        }
+      }
+    },
     "%lld" : {
 
     },
@@ -2219,6 +2311,52 @@
         }
       }
     },
+    "Carbohydrates" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kohlenhydrate"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hidratos de carbono"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Glucides"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Carboidrati"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Koolhydraten"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Węglowodany"
+          }
+        },
+        "pt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hidratos de carbono"
+          }
+        }
+      }
+    },
     "Categories" : {
       "localizations" : {
         "de" : {
@@ -2375,17 +2513,6 @@
         }
       }
     },
-    "Carbohydrates" : {
-      "localizations" : {
-        "de" : { "stringUnit" : { "state" : "translated", "value" : "Kohlenhydrate" } },
-        "es" : { "stringUnit" : { "state" : "translated", "value" : "Hidratos de carbono" } },
-        "fr" : { "stringUnit" : { "state" : "translated", "value" : "Glucides" } },
-        "it" : { "stringUnit" : { "state" : "translated", "value" : "Carboidrati" } },
-        "nl" : { "stringUnit" : { "state" : "translated", "value" : "Koolhydraten" } },
-        "pl" : { "stringUnit" : { "state" : "translated", "value" : "Węglowodany" } },
-        "pt" : { "stringUnit" : { "state" : "translated", "value" : "Hidratos de carbono" } }
-      }
-    },
     "Data Quality" : {
       "localizations" : {
         "de" : {
@@ -2472,41 +2599,54 @@
         }
       }
     },
-    "Energy" : {
+    "Eco" : {
       "localizations" : {
-        "de" : { "stringUnit" : { "state" : "translated", "value" : "Energie" } },
-        "es" : { "stringUnit" : { "state" : "translated", "value" : "Energía" } },
-        "fr" : { "stringUnit" : { "state" : "translated", "value" : "Énergie" } },
-        "it" : { "stringUnit" : { "state" : "translated", "value" : "Energia" } },
-        "nl" : { "stringUnit" : { "state" : "translated", "value" : "Energie" } },
-        "pl" : { "stringUnit" : { "state" : "translated", "value" : "Energia" } },
-        "pt" : { "stringUnit" : { "state" : "translated", "value" : "Energia" } }
-      }
-    },
-    "Excellent - complete product information" : {
-      "localizations" : {
-        "de" : { "stringUnit" : { "state" : "translated", "value" : "Ausgezeichnet - vollständige Produktinformationen" } },
-        "es" : { "stringUnit" : { "state" : "translated", "value" : "Excelente - información completa del producto" } },
-        "fr" : { "stringUnit" : { "state" : "translated", "value" : "Excellent - informations produit complètes" } },
-        "it" : { "stringUnit" : { "state" : "translated", "value" : "Eccellente - informazioni complete sul prodotto" } },
-        "nl" : { "stringUnit" : { "state" : "translated", "value" : "Uitstekend - volledige productinformatie" } },
-        "pl" : { "stringUnit" : { "state" : "translated", "value" : "Doskonała - pełne informacje o produkcie" } },
-        "pt" : { "stringUnit" : { "state" : "translated", "value" : "Excelente - informações completas do produto" } }
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Öko"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Eco"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Éco"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Eco"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Eco"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Eko"
+          }
+        },
+        "pt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Eco"
+          }
+        }
       }
     },
     "Eco %@" : {
 
-    },
-    "Eco" : {
-      "localizations" : {
-        "de" : { "stringUnit" : { "state" : "translated", "value" : "Öko" } },
-        "es" : { "stringUnit" : { "state" : "translated", "value" : "Eco" } },
-        "fr" : { "stringUnit" : { "state" : "translated", "value" : "Éco" } },
-        "it" : { "stringUnit" : { "state" : "translated", "value" : "Eco" } },
-        "nl" : { "stringUnit" : { "state" : "translated", "value" : "Eco" } },
-        "pl" : { "stringUnit" : { "state" : "translated", "value" : "Eko" } },
-        "pt" : { "stringUnit" : { "state" : "translated", "value" : "Eco" } }
-      }
     },
     "Eco-Score" : {
       "localizations" : {
@@ -2564,6 +2704,52 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Sehr hohe Umweltauswirkungen"
+          }
+        }
+      }
+    },
+    "Energy" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Energie"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Energía"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Énergie"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Energia"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Energie"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Energia"
+          }
+        },
+        "pt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Energia"
           }
         }
       }
@@ -3294,6 +3480,52 @@
         }
       }
     },
+    "Excellent - complete product information" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ausgezeichnet - vollständige Produktinformationen"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Excelente - información completa del producto"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Excellent - informations produit complètes"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Eccellente - informazioni complete sul prodotto"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Uitstekend - volledige productinformatie"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Doskonała - pełne informacje o produkcie"
+          }
+        },
+        "pt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Excelente - informações completas do produto"
+          }
+        }
+      }
+    },
     "Excellent data quality" : {
       "localizations" : {
         "de" : {
@@ -3324,12 +3556,104 @@
         }
       }
     },
+    "Fair - some information missing" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Befriedigend - einige Informationen fehlen"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Regular - falta información"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Moyen - certaines informations manquantes"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Discreto - alcune informazioni mancanti"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Redelijk - sommige informatie ontbreekt"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dostateczna - brakuje niektórych informacji"
+          }
+        },
+        "pt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Razoável - algumas informações em falta"
+          }
+        }
+      }
+    },
     "Fair data quality" : {
       "localizations" : {
         "de" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ausreichende Datenqualität"
+          }
+        }
+      }
+    },
+    "Fat" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fett"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Grasas"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Matières grasses"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Grassi"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vetten"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tłuszcz"
+          }
+        },
+        "pt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gorduras"
           }
         }
       }
@@ -3344,48 +3668,96 @@
         }
       }
     },
-    "Fair - some information missing" : {
-      "localizations" : {
-        "de" : { "stringUnit" : { "state" : "translated", "value" : "Befriedigend - einige Informationen fehlen" } },
-        "es" : { "stringUnit" : { "state" : "translated", "value" : "Regular - falta información" } },
-        "fr" : { "stringUnit" : { "state" : "translated", "value" : "Moyen - certaines informations manquantes" } },
-        "it" : { "stringUnit" : { "state" : "translated", "value" : "Discreto - alcune informazioni mancanti" } },
-        "nl" : { "stringUnit" : { "state" : "translated", "value" : "Redelijk - sommige informatie ontbreekt" } },
-        "pl" : { "stringUnit" : { "state" : "translated", "value" : "Dostateczna - brakuje niektórych informacji" } },
-        "pt" : { "stringUnit" : { "state" : "translated", "value" : "Razoável - algumas informações em falta" } }
-      }
-    },
-    "Fat" : {
-      "localizations" : {
-        "de" : { "stringUnit" : { "state" : "translated", "value" : "Fett" } },
-        "es" : { "stringUnit" : { "state" : "translated", "value" : "Grasas" } },
-        "fr" : { "stringUnit" : { "state" : "translated", "value" : "Matières grasses" } },
-        "it" : { "stringUnit" : { "state" : "translated", "value" : "Grassi" } },
-        "nl" : { "stringUnit" : { "state" : "translated", "value" : "Vetten" } },
-        "pl" : { "stringUnit" : { "state" : "translated", "value" : "Tłuszcz" } },
-        "pt" : { "stringUnit" : { "state" : "translated", "value" : "Gorduras" } }
-      }
-    },
     "Favorites" : {
       "localizations" : {
-        "de" : { "stringUnit" : { "state" : "translated", "value" : "Favoriten" } },
-        "es" : { "stringUnit" : { "state" : "translated", "value" : "Favoritos" } },
-        "fr" : { "stringUnit" : { "state" : "translated", "value" : "Favoris" } },
-        "it" : { "stringUnit" : { "state" : "translated", "value" : "Preferiti" } },
-        "nl" : { "stringUnit" : { "state" : "translated", "value" : "Favorieten" } },
-        "pl" : { "stringUnit" : { "state" : "translated", "value" : "Ulubione" } },
-        "pt" : { "stringUnit" : { "state" : "translated", "value" : "Favoritos" } }
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Favoriten"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Favoritos"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Favoris"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Preferiti"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Favorieten"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ulubione"
+          }
+        },
+        "pt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Favoritos"
+          }
+        }
       }
     },
     "Fiber" : {
       "localizations" : {
-        "de" : { "stringUnit" : { "state" : "translated", "value" : "Ballaststoffe" } },
-        "es" : { "stringUnit" : { "state" : "translated", "value" : "Fibra" } },
-        "fr" : { "stringUnit" : { "state" : "translated", "value" : "Fibres" } },
-        "it" : { "stringUnit" : { "state" : "translated", "value" : "Fibre" } },
-        "nl" : { "stringUnit" : { "state" : "translated", "value" : "Vezels" } },
-        "pl" : { "stringUnit" : { "state" : "translated", "value" : "Błonnik" } },
-        "pt" : { "stringUnit" : { "state" : "translated", "value" : "Fibra" } }
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ballaststoffe"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fibra"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fibres"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fibre"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vezels"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Błonnik"
+          }
+        },
+        "pt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fibra"
+          }
+        }
       }
     },
     "Francais" : {
@@ -3418,6 +3790,52 @@
         }
       }
     },
+    "Good - most information available" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gut - die meisten Informationen verfügbar"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bueno - la mayoría de información disponible"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bon - la plupart des informations disponibles"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Buono - la maggior parte delle informazioni disponibili"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Goed - meeste informatie beschikbaar"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dobra - większość informacji dostępna"
+          }
+        },
+        "pt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bom - maioria das informações disponíveis"
+          }
+        }
+      }
+    },
     "Good data quality" : {
       "localizations" : {
         "de" : {
@@ -3426,17 +3844,6 @@
             "value" : "Gute Datenqualität"
           }
         }
-      }
-    },
-    "Good - most information available" : {
-      "localizations" : {
-        "de" : { "stringUnit" : { "state" : "translated", "value" : "Gut - die meisten Informationen verfügbar" } },
-        "es" : { "stringUnit" : { "state" : "translated", "value" : "Bueno - la mayoría de información disponible" } },
-        "fr" : { "stringUnit" : { "state" : "translated", "value" : "Bon - la plupart des informations disponibles" } },
-        "it" : { "stringUnit" : { "state" : "translated", "value" : "Buono - la maggior parte delle informazioni disponibili" } },
-        "nl" : { "stringUnit" : { "state" : "translated", "value" : "Goed - meeste informatie beschikbaar" } },
-        "pl" : { "stringUnit" : { "state" : "translated", "value" : "Dobra - większość informacji dostępna" } },
-        "pt" : { "stringUnit" : { "state" : "translated", "value" : "Bom - maioria das informações disponíveis" } }
       }
     },
     "Haptic Feedback" : {
@@ -3781,28 +4188,6 @@
             "value" : "Noch keine Scans"
           }
         }
-      }
-    },
-    "  of which saturates" : {
-      "localizations" : {
-        "de" : { "stringUnit" : { "state" : "translated", "value" : "  davon gesättigte Fettsäuren" } },
-        "es" : { "stringUnit" : { "state" : "translated", "value" : "  de las cuales saturadas" } },
-        "fr" : { "stringUnit" : { "state" : "translated", "value" : "  dont acides gras saturés" } },
-        "it" : { "stringUnit" : { "state" : "translated", "value" : "  di cui acidi grassi saturi" } },
-        "nl" : { "stringUnit" : { "state" : "translated", "value" : "  waarvan verzadigd" } },
-        "pl" : { "stringUnit" : { "state" : "translated", "value" : "  w tym kwasy tłuszczowe nasycone" } },
-        "pt" : { "stringUnit" : { "state" : "translated", "value" : "  das quais saturadas" } }
-      }
-    },
-    "  of which sugars" : {
-      "localizations" : {
-        "de" : { "stringUnit" : { "state" : "translated", "value" : "  davon Zucker" } },
-        "es" : { "stringUnit" : { "state" : "translated", "value" : "  de los cuales azúcares" } },
-        "fr" : { "stringUnit" : { "state" : "translated", "value" : "  dont sucres" } },
-        "it" : { "stringUnit" : { "state" : "translated", "value" : "  di cui zuccheri" } },
-        "nl" : { "stringUnit" : { "state" : "translated", "value" : "  waarvan suikers" } },
-        "pl" : { "stringUnit" : { "state" : "translated", "value" : "  w tym cukry" } },
-        "pt" : { "stringUnit" : { "state" : "translated", "value" : "  dos quais açúcares" } }
       }
     },
     "NOVA %lld" : {
@@ -4231,9 +4616,6 @@
         }
       }
     },
-    "Nutri-Score" : {
-
-    },
     "Nutri-Score A: Excellent nutritional quality" : {
       "localizations" : {
         "de" : {
@@ -4280,6 +4662,282 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Nutri-Score E: Sehr schlechte Nährwertqualität"
+          }
+        }
+      }
+    },
+    "Nutri-Score" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nutri-Score"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nutri-Score"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nutri-Score"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nutri-Score"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nutri-Score"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nutri-Score"
+          }
+        },
+        "pt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nutri-Score"
+          }
+        }
+      }
+    },
+    "– Nutritional Quality" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "– Nährwertqualität"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "– Calidad nutricional"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "– Qualité nutritionnelle"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "– Qualità nutrizionale"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "– Voedingskwaliteit"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "– Jakość odżywcza"
+          }
+        },
+        "pt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "– Qualidade nutricional"
+          }
+        }
+      }
+    },
+    "A = Best, E = Poorest nutritional value" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "A = Beste, E = Schlechteste Nährwertqualität"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "A = Mejor, E = Peor valor nutricional"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "A = Meilleur, E = Pire valeur nutritionnelle"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "A = Migliore, E = Peggiore valore nutrizionale"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "A = Beste, E = Slechtste voedingswaarde"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "A = Najlepsza, E = Najgorsza wartość odżywcza"
+          }
+        },
+        "pt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "A = Melhor, E = Pior valor nutricional"
+          }
+        }
+      }
+    },
+    "1 = Natural, 4 = Ultra-processed" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1 = Natürlich, 4 = Hochverarbeitet"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1 = Natural, 4 = Ultraprocesado"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1 = Naturel, 4 = Ultra-transformé"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1 = Naturale, 4 = Ultra-trasformato"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1 = Natuurlijk, 4 = Ultrabewerkt"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1 = Naturalne, 4 = Ultraprzetworzone"
+          }
+        },
+        "pt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1 = Natural, 4 = Ultraprocessado"
+          }
+        }
+      }
+    },
+    "Eco-Score" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Öko-Score"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Eco-Score"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Éco-Score"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Eco-Score"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Eco-Score"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Eco-Score"
+          }
+        },
+        "pt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Eco-Score"
+          }
+        }
+      }
+    },
+    "Environmental impact" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Umweltauswirkungen"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Impacto ambiental"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Impact environnemental"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Impatto ambientale"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Milieu-impact"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wpływ na środowisko"
+          }
+        },
+        "pt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Impacto ambiental"
           }
         }
       }
@@ -4590,26 +5248,50 @@
         }
       }
     },
-    "No nutritional information available" : {
-      "localizations" : {
-        "de" : { "stringUnit" : { "state" : "translated", "value" : "Keine Nährwertangaben verfügbar" } },
-        "es" : { "stringUnit" : { "state" : "translated", "value" : "Información nutricional no disponible" } },
-        "fr" : { "stringUnit" : { "state" : "translated", "value" : "Informations nutritionnelles non disponibles" } },
-        "it" : { "stringUnit" : { "state" : "translated", "value" : "Informazioni nutrizionali non disponibili" } },
-        "nl" : { "stringUnit" : { "state" : "translated", "value" : "Geen voedingswaarde-informatie beschikbaar" } },
-        "pl" : { "stringUnit" : { "state" : "translated", "value" : "Brak informacji o wartościach odżywczych" } },
-        "pt" : { "stringUnit" : { "state" : "translated", "value" : "Informação nutricional não disponível" } }
-      }
-    },
     "Nutritional Information" : {
       "localizations" : {
-        "de" : { "stringUnit" : { "state" : "translated", "value" : "Nährwertinformationen" } },
-        "es" : { "stringUnit" : { "state" : "translated", "value" : "Información nutricional" } },
-        "fr" : { "stringUnit" : { "state" : "translated", "value" : "Informations nutritionnelles" } },
-        "it" : { "stringUnit" : { "state" : "translated", "value" : "Informazioni nutrizionali" } },
-        "nl" : { "stringUnit" : { "state" : "translated", "value" : "Voedingswaarde" } },
-        "pl" : { "stringUnit" : { "state" : "translated", "value" : "Informacje o wartościach odżywczych" } },
-        "pt" : { "stringUnit" : { "state" : "translated", "value" : "Informação nutricional" } }
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nährwertinformationen"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Información nutricional"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Informations nutritionnelles"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Informazioni nutrizionali"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Voedingswaarde"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Informacje o wartościach odżywczych"
+          }
+        },
+        "pt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Informação nutricional"
+          }
+        }
       }
     },
     "OCR Result" : {
@@ -4807,6 +5489,52 @@
         }
       }
     },
+    "Poor - limited information available" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mangelhaft - begrenzte Informationen verfügbar"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pobre - información limitada disponible"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Faible - informations limitées disponibles"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Scarso - informazioni limitate disponibili"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Slecht - beperkte informatie beschikbaar"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Słaba - ograniczone informacje dostępne"
+          }
+        },
+        "pt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fraco - informação limitada disponível"
+          }
+        }
+      }
+    },
     "Poor data quality" : {
       "localizations" : {
         "de" : {
@@ -4823,6 +5551,52 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Portugiesisch"
+          }
+        }
+      }
+    },
+    "Processing" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Verarbeitung"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Procesamiento"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Transformation"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lavorazione"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bewerking"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Przetworzenie"
+          }
+        },
+        "pt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Processamento"
           }
         }
       }
@@ -4887,45 +5661,58 @@
         }
       }
     },
-    "Processing" : {
-      "localizations" : {
-        "de" : { "stringUnit" : { "state" : "translated", "value" : "Verarbeitung" } },
-        "es" : { "stringUnit" : { "state" : "translated", "value" : "Procesamiento" } },
-        "fr" : { "stringUnit" : { "state" : "translated", "value" : "Transformation" } },
-        "it" : { "stringUnit" : { "state" : "translated", "value" : "Lavorazione" } },
-        "nl" : { "stringUnit" : { "state" : "translated", "value" : "Bewerking" } },
-        "pl" : { "stringUnit" : { "state" : "translated", "value" : "Przetworzenie" } },
-        "pt" : { "stringUnit" : { "state" : "translated", "value" : "Processamento" } }
-      }
-    },
-    "Poor - limited information available" : {
-      "localizations" : {
-        "de" : { "stringUnit" : { "state" : "translated", "value" : "Mangelhaft - begrenzte Informationen verfügbar" } },
-        "es" : { "stringUnit" : { "state" : "translated", "value" : "Pobre - información limitada disponible" } },
-        "fr" : { "stringUnit" : { "state" : "translated", "value" : "Faible - informations limitées disponibles" } },
-        "it" : { "stringUnit" : { "state" : "translated", "value" : "Scarso - informazioni limitate disponibili" } },
-        "nl" : { "stringUnit" : { "state" : "translated", "value" : "Slecht - beperkte informatie beschikbaar" } },
-        "pl" : { "stringUnit" : { "state" : "translated", "value" : "Słaba - ograniczone informacje dostępne" } },
-        "pt" : { "stringUnit" : { "state" : "translated", "value" : "Fraco - informação limitada disponível" } }
-      }
-    },
-    "Proteins" : {
-      "localizations" : {
-        "de" : { "stringUnit" : { "state" : "translated", "value" : "Eiweiß" } },
-        "es" : { "stringUnit" : { "state" : "translated", "value" : "Proteínas" } },
-        "fr" : { "stringUnit" : { "state" : "translated", "value" : "Protéines" } },
-        "it" : { "stringUnit" : { "state" : "translated", "value" : "Proteine" } },
-        "nl" : { "stringUnit" : { "state" : "translated", "value" : "Eiwitten" } },
-        "pl" : { "stringUnit" : { "state" : "translated", "value" : "Białko" } },
-        "pt" : { "stringUnit" : { "state" : "translated", "value" : "Proteínas" } }
-      }
-    },
     "Products you scan will appear here" : {
       "localizations" : {
         "de" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Gescannte Produkte werden hier angezeigt"
+          }
+        }
+      }
+    },
+    "Proteins" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Eiweiß"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Proteínas"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Protéines"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Proteine"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Eiwitten"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Białko"
+          }
+        },
+        "pt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Proteínas"
           }
         }
       }
@@ -4946,6 +5733,52 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Letzte Scans"
+          }
+        }
+      }
+    },
+    "Salt" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Salz"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sal"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sel"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sale"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zout"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sól"
+          }
+        },
+        "pt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sal"
           }
         }
       }
@@ -4995,17 +5828,6 @@
             "value" : "Digitalizar"
           }
         }
-      }
-    },
-    "Salt" : {
-      "localizations" : {
-        "de" : { "stringUnit" : { "state" : "translated", "value" : "Salz" } },
-        "es" : { "stringUnit" : { "state" : "translated", "value" : "Sal" } },
-        "fr" : { "stringUnit" : { "state" : "translated", "value" : "Sel" } },
-        "it" : { "stringUnit" : { "state" : "translated", "value" : "Sale" } },
-        "nl" : { "stringUnit" : { "state" : "translated", "value" : "Zout" } },
-        "pl" : { "stringUnit" : { "state" : "translated", "value" : "Sól" } },
-        "pt" : { "stringUnit" : { "state" : "translated", "value" : "Sal" } }
       }
     },
     "Scan Barcode" : {
@@ -5152,6 +5974,466 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Suche..."
+          }
+        }
+      }
+    },
+    "Shopping List" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Einkaufsliste"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lista de compras"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Liste de courses"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lista della spesa"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Boodschappenlijst"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lista zakupów"
+          }
+        },
+        "pt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lista de compras"
+          }
+        }
+      }
+    },
+    "Add to Shopping List" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zur Einkaufsliste hinzufügen"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Añadir a la lista de compras"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ajouter à la liste de courses"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aggiungi alla lista della spesa"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Toevoegen aan boodschappenlijst"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dodaj do listy zakupów"
+          }
+        },
+        "pt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Adicionar à lista de compras"
+          }
+        }
+      }
+    },
+    "Added to List" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zur Liste hinzugefügt"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Añadido a la lista"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ajouté à la liste"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aggiunto alla lista"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Toegevoegd aan lijst"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dodano do listy"
+          }
+        },
+        "pt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Adicionado à lista"
+          }
+        }
+      }
+    },
+    "To Buy" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zu kaufen"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Por comprar"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "À acheter"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Da comprare"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Te kopen"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Do kupienia"
+          }
+        },
+        "pt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Para comprar"
+          }
+        }
+      }
+    },
+    "Purchased" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gekauft"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Comprado"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Acheté"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Acquistato"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gekocht"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kupione"
+          }
+        },
+        "pt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Comprado"
+          }
+        }
+      }
+    },
+    "No Items" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Keine Artikel"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sin artículos"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aucun article"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nessun articolo"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Geen artikelen"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Brak produktów"
+          }
+        },
+        "pt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sem itens"
+          }
+        }
+      }
+    },
+    "Add products to your shopping list from the product detail screen." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fügen Sie Produkte über die Produktdetailseite zur Einkaufsliste hinzu."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Añade productos a tu lista de compras desde la pantalla de detalles del producto."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ajoutez des produits à votre liste de courses depuis l'écran de détails du produit."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aggiungi prodotti alla tua lista della spesa dalla schermata dei dettagli del prodotto."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Voeg producten toe aan je boodschappenlijst vanuit het productdetailscherm."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dodaj produkty do listy zakupów z ekranu szczegółów produktu."
+          }
+        },
+        "pt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Adicione produtos à sua lista de compras a partir do ecrã de detalhes do produto."
+          }
+        }
+      }
+    },
+    "Clear Checked" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Abgehakte löschen"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Borrar marcados"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Effacer cochés"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cancella selezionati"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Verwijder aangevinkte"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Usuń zaznaczone"
+          }
+        },
+        "pt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Limpar marcados"
+          }
+        }
+      }
+    },
+    "Clear Checked Items" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Abgehakte Artikel löschen"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Borrar artículos marcados"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Effacer les articles cochés"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cancella articoli selezionati"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Verwijder aangevinkte artikelen"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Usuń zaznaczone produkty"
+          }
+        },
+        "pt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Limpar itens marcados"
+          }
+        }
+      }
+    },
+    "This will remove all checked items from your shopping list." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Alle abgehakten Artikel werden aus Ihrer Einkaufsliste entfernt."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Esto eliminará todos los artículos marcados de tu lista de compras."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cela supprimera tous les articles cochés de votre liste de courses."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Questo rimuoverà tutti gli articoli selezionati dalla tua lista della spesa."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dit verwijdert alle aangevinkte artikelen van je boodschappenlijst."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Spowoduje to usunięcie wszystkich zaznaczonych produktów z listy zakupów."
+          }
+        },
+        "pt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Isto removerá todos os itens marcados da sua lista de compras."
           }
         }
       }

@@ -30,6 +30,9 @@ struct HomeView: View {
 
                     // Search Button
                     searchButton
+
+                    // Shopping List Button
+                    shoppingListButton
                 }
                 .padding()
             }
@@ -198,6 +201,24 @@ struct HomeView: View {
             HStack {
                 Image(systemName: "magnifyingglass")
                 Text("Search Products")
+                Spacer()
+                Image(systemName: "chevron.right")
+                    .foregroundColor(.secondary)
+            }
+            .padding()
+            .background(Color(.systemGray6))
+            .cornerRadius(12)
+        }
+        .buttonStyle(.plain)
+    }
+
+    // MARK: - Shopping List Button
+
+    private var shoppingListButton: some View {
+        NavigationLink(destination: ShoppingListView()) {
+            HStack {
+                Image(systemName: "cart")
+                Text(String(localized: "Shopping List"))
                 Spacer()
                 Image(systemName: "chevron.right")
                     .foregroundColor(.secondary)

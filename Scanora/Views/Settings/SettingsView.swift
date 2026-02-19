@@ -89,15 +89,6 @@ struct SettingsView: View {
                         }
                     }
 
-                    Link(destination: URL(string: "https://github.com/scanora-app")!) {
-                        HStack {
-                            Text("Source Code")
-                            Spacer()
-                            Image(systemName: "arrow.up.right.square")
-                                .foregroundColor(.secondary)
-                        }
-                    }
-
                     HStack {
                         Text("Version")
                         Spacer()

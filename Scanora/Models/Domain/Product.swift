@@ -88,13 +88,23 @@ struct Product: Identifiable, Hashable, Sendable {
                .capitalized
         } ?? []
 
-        // Parse categories
-        self.categories = dto.categoriesTags?.compactMap { tag in
-            tag.replacingOccurrences(of: "en:", with: "")
-               .replacingOccurrences(of: "pt:", with: "")
-               .replacingOccurrences(of: "-", with: " ")
-               .capitalized
-        }.prefix(5).map { $0 } ?? []
+        // Parse categories - prefer localized categories string, fallback to tags
+        if let categoriesString = dto.categories, !categoriesString.isEmpty {
+            self.categories = categoriesString
+                .split(separator: ",")
+                .map { $0.trimmingCharacters(in: .whitespaces) }
+                .filter { !$0.isEmpty }
+                .prefix(5)
+                .map { String($0) }
+        } else {
+            self.categories = dto.categoriesTags?.compactMap { tag in
+                tag.replacingOccurrences(of: "en:", with: "")
+                   .replacingOccurrences(of: "pt:", with: "")
+                   .replacingOccurrences(of: "de:", with: "")
+                   .replacingOccurrences(of: "-", with: " ")
+                   .capitalized
+            }.prefix(5).map { $0 } ?? []
+        }
 
         // Select ingredients text based on preferred language
         self.ingredientsText = Self.selectLocalizedValue(

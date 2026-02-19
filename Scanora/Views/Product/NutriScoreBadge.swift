@@ -65,8 +65,6 @@ struct NutriScoreBadgeCompact: View {
         HStack(spacing: 4) {
             Image(systemName: "leaf.fill")
                 .font(.caption2)
-            Text("Nutri-Score")
-                .font(.caption2)
             Text(score.grade)
                 .font(.caption.bold())
         }
@@ -75,6 +73,7 @@ struct NutriScoreBadgeCompact: View {
         .padding(.vertical, 4)
         .background(score.color)
         .clipShape(Capsule())
+        .fixedSize()
         .accessibilityLabel(score.accessibilityLabel)
     }
 }
@@ -187,30 +186,57 @@ struct HealthScoresRow: View {
     private let badgeHeight: CGFloat = 36
 
     var body: some View {
-        HStack(spacing: 8) {
+        VStack(alignment: .leading, spacing: 12) {
+            // NutriScore section
             if let nutriScore = nutriScore {
-                NutriScoreBadge(score: nutriScore, size: .small)
-                    .frame(height: badgeHeight)
+                VStack(alignment: .leading, spacing: 4) {
+                    HStack(spacing: 4) {
+                        Text(String(localized: "Nutri-Score"))
+                            .font(.subheadline.bold())
+                        Text(String(localized: "– Nutritional Quality"))
+                            .font(.subheadline)
+                            .foregroundColor(.secondary)
+                    }
+                    NutriScoreBadge(score: nutriScore, size: .small)
+                    Text(String(localized: "A = Best, E = Poorest nutritional value"))
+                        .font(.caption2)
+                        .foregroundColor(.secondary)
+                }
             }
 
-            if let novaGroup = novaGroup {
-                UniformBadge(
-                    icon: novaGroup.icon,
-                    title: String(localized: "Processing"),
-                    value: "\(novaGroup.rawValue)",
-                    color: novaGroup.color
-                )
-                .frame(height: badgeHeight)
-            }
+            // NOVA and Eco badges section
+            if novaGroup != nil || ecoScore != nil {
+                HStack(spacing: 12) {
+                    if let novaGroup = novaGroup {
+                        VStack(alignment: .leading, spacing: 4) {
+                            UniformBadge(
+                                icon: novaGroup.icon,
+                                title: String(localized: "Processing"),
+                                value: "\(novaGroup.rawValue)",
+                                color: novaGroup.color
+                            )
+                            .frame(height: badgeHeight)
+                            Text(String(localized: "1 = Natural, 4 = Ultra-processed"))
+                                .font(.caption2)
+                                .foregroundColor(.secondary)
+                        }
+                    }
 
-            if let ecoScore = ecoScore {
-                UniformBadge(
-                    icon: "leaf.circle.fill",
-                    title: String(localized: "Eco"),
-                    value: ecoScore.grade,
-                    color: ecoScore.color
-                )
-                .frame(height: badgeHeight)
+                    if let ecoScore = ecoScore {
+                        VStack(alignment: .leading, spacing: 4) {
+                            UniformBadge(
+                                icon: "leaf.circle.fill",
+                                title: String(localized: "Eco-Score"),
+                                value: ecoScore.grade,
+                                color: ecoScore.color
+                            )
+                            .frame(height: badgeHeight)
+                            Text(String(localized: "Environmental impact"))
+                                .font(.caption2)
+                                .foregroundColor(.secondary)
+                        }
+                    }
+                }
             }
 
             if nutriScore == nil && novaGroup == nil && ecoScore == nil {
@@ -218,8 +244,6 @@ struct HealthScoresRow: View {
                     .font(.caption)
                     .foregroundColor(.secondary)
             }
-
-            Spacer()
         }
         .padding(.horizontal, 16)
     }

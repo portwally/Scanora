@@ -1,12 +1,16 @@
 import SwiftUI
+import SwiftData
 
 struct ProductDetailView: View {
     @Environment(\.dismiss) private var dismiss
+    @Environment(\.modelContext) private var modelContext
 
     let product: Product
     var onDismiss: (() -> Void)?
 
     @State private var selectedSection: DetailSection?
+    @State private var addedToList = false
+    @State private var showingAddedFeedback = false
 
     enum DetailSection: String, CaseIterable, Identifiable {
         case overview
@@ -50,6 +54,24 @@ struct ProductDetailView: View {
                     novaGroup: product.novaGroup,
                     ecoScore: product.ecoScore
                 )
+
+                // Add to shopping list button
+                Button {
+                    addToShoppingList()
+                } label: {
+                    HStack {
+                        Image(systemName: addedToList ? "checkmark.circle.fill" : "cart.badge.plus")
+                        Text(addedToList ? String(localized: "Added to List") : String(localized: "Add to Shopping List"))
+                    }
+                    .font(.subheadline.weight(.medium))
+                    .foregroundColor(.white)
+                    .frame(maxWidth: .infinity)
+                    .padding(.vertical, 12)
+                    .background(addedToList ? Color.green : Color.blue)
+                    .clipShape(RoundedRectangle(cornerRadius: 10))
+                }
+                .disabled(addedToList)
+                .padding(.horizontal, 16)
 
                 // Allergen warning (if any)
                 if product.hasAllergenWarnings {
@@ -133,6 +155,23 @@ struct ProductDetailView: View {
         }
 
         return sections
+    }
+
+    // MARK: - Shopping List
+
+    private func addToShoppingList() {
+        let service = ShoppingListService(modelContext: modelContext)
+
+        Task {
+            do {
+                try await service.addProduct(product, quantity: 1, note: nil)
+                withAnimation {
+                    addedToList = true
+                }
+            } catch {
+                print("Failed to add to shopping list: \(error)")
+            }
+        }
     }
 }
 
@@ -229,7 +268,7 @@ struct OverviewSection: View {
 
                     FlowLayout(spacing: 8) {
                         ForEach(product.categories, id: \.self) { category in
-                            Text(category)
+                            Text(CategoryTranslator.translate(category))
                                 .font(.caption)
                                 .padding(.horizontal, 10)
                                 .padding(.vertical, 6)

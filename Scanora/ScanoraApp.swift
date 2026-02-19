@@ -16,7 +16,8 @@ struct ScanoraApp: App {
         do {
             let schema = Schema([
                 CachedProduct.self,
-                ScanHistory.self
+                ScanHistory.self,
+                ShoppingListItem.self
             ])
             let modelConfiguration = ModelConfiguration(
                 schema: schema,
