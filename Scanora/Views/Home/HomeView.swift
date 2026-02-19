@@ -132,15 +132,23 @@ struct HomeView: View {
                 }
             }
 
-            VStack(spacing: 8) {
+            List {
                 ForEach(viewModel.recentScans) { scan in
                     NavigationLink(destination: productDetailDestination(for: scan)) {
                         ScanRowView(scan: scan)
                     }
-                    .buttonStyle(.plain)
+                    .listRowBackground(Color(.systemGray6))
+                    .listRowInsets(EdgeInsets(top: 4, leading: 12, bottom: 4, trailing: 12))
+                }
+                .onDelete { indexSet in
+                    for index in indexSet {
+                        viewModel.deleteScan(viewModel.recentScans[index])
+                    }
                 }
             }
-            .padding()
+            .listStyle(.plain)
+            .scrollDisabled(true)
+            .frame(height: CGFloat(viewModel.recentScans.count) * 60)
             .background(Color(.systemGray6))
             .cornerRadius(12)
         }
@@ -161,15 +169,23 @@ struct HomeView: View {
                 }
             }
 
-            VStack(spacing: 8) {
+            List {
                 ForEach(viewModel.favorites) { scan in
                     NavigationLink(destination: productDetailDestination(for: scan)) {
                         ScanRowView(scan: scan, showFavoriteIcon: false)
                     }
-                    .buttonStyle(.plain)
+                    .listRowBackground(Color(.systemGray6))
+                    .listRowInsets(EdgeInsets(top: 4, leading: 12, bottom: 4, trailing: 12))
+                }
+                .onDelete { indexSet in
+                    for index in indexSet {
+                        viewModel.deleteScan(viewModel.favorites[index])
+                    }
                 }
             }
-            .padding()
+            .listStyle(.plain)
+            .scrollDisabled(true)
+            .frame(height: CGFloat(viewModel.favorites.count) * 60)
             .background(Color(.systemGray6))
             .cornerRadius(12)
         }

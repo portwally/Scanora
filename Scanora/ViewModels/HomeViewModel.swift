@@ -78,4 +78,24 @@ final class HomeViewModel {
     func refresh() async {
         await loadData()
     }
+
+    // MARK: - Delete Scan
+
+    func deleteScan(_ scan: ScanHistory) {
+        guard let modelContext else { return }
+
+        modelContext.delete(scan)
+        try? modelContext.save()
+
+        // Update local arrays
+        recentScans.removeAll { $0.id == scan.id }
+        favorites.removeAll { $0.id == scan.id }
+
+        // Update stats
+        stats = HomeStats(
+            totalScans: max(0, stats.totalScans - 1),
+            favoritesCount: scan.isFavorite ? max(0, stats.favoritesCount - 1) : stats.favoritesCount,
+            todayCount: Calendar.current.isDateInToday(scan.scannedAt) ? max(0, stats.todayCount - 1) : stats.todayCount
+        )
+    }
 }

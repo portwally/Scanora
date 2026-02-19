@@ -158,8 +158,9 @@ struct HealthScoresRow: View {
                         .foregroundColor(.secondary)
                 }
             }
-            .padding(.horizontal)
+            .padding(.horizontal, 16)
         }
+        .scrollClipDisabled()
     }
 }
 
