@@ -1,837 +1,5329 @@
 {
   "sourceLanguage" : "en",
   "strings" : {
+    "%lld" : {
+
+    },
+    "%lld%%" : {
+
+    },
+    "About" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Über"
+          }
+        }
+      }
+    },
+    "Add Photo" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Foto hinzufügen"
+          }
+        }
+      }
+    },
+    "Add Product" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Produkt hinzufügen"
+          }
+        }
+      }
+    },
+    "Additional Information" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zusätzliche Informationen"
+          }
+        }
+      }
+    },
     "allergen.celery" : {
       "localizations" : {
-        "bg" : { "stringUnit" : { "state" : "translated", "value" : "Целина" } },
-        "cs" : { "stringUnit" : { "state" : "translated", "value" : "Celer" } },
-        "da" : { "stringUnit" : { "state" : "translated", "value" : "Selleri" } },
-        "de" : { "stringUnit" : { "state" : "translated", "value" : "Sellerie" } },
-        "el" : { "stringUnit" : { "state" : "translated", "value" : "Σέλινο" } },
-        "en" : { "stringUnit" : { "state" : "translated", "value" : "Celery" } },
-        "es" : { "stringUnit" : { "state" : "translated", "value" : "Apio" } },
-        "et" : { "stringUnit" : { "state" : "translated", "value" : "Seller" } },
-        "fi" : { "stringUnit" : { "state" : "translated", "value" : "Selleri" } },
-        "fr" : { "stringUnit" : { "state" : "translated", "value" : "Céleri" } },
-        "ga" : { "stringUnit" : { "state" : "translated", "value" : "Soilire" } },
-        "hr" : { "stringUnit" : { "state" : "translated", "value" : "Celer" } },
-        "hu" : { "stringUnit" : { "state" : "translated", "value" : "Zeller" } },
-        "it" : { "stringUnit" : { "state" : "translated", "value" : "Sedano" } },
-        "lt" : { "stringUnit" : { "state" : "translated", "value" : "Salierai" } },
-        "lv" : { "stringUnit" : { "state" : "translated", "value" : "Selerijas" } },
-        "mt" : { "stringUnit" : { "state" : "translated", "value" : "Karfus" } },
-        "nl" : { "stringUnit" : { "state" : "translated", "value" : "Selderij" } },
-        "pl" : { "stringUnit" : { "state" : "translated", "value" : "Seler" } },
-        "pt" : { "stringUnit" : { "state" : "translated", "value" : "Aipo" } },
-        "ro" : { "stringUnit" : { "state" : "translated", "value" : "Țelină" } },
-        "sk" : { "stringUnit" : { "state" : "translated", "value" : "Zeler" } },
-        "sl" : { "stringUnit" : { "state" : "translated", "value" : "Zelena" } },
-        "sv" : { "stringUnit" : { "state" : "translated", "value" : "Selleri" } }
+        "bg" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Целина"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Celer"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Selleri"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sellerie"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Σέλινο"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Celery"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Apio"
+          }
+        },
+        "et" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Seller"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Selleri"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Céleri"
+          }
+        },
+        "ga" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Soilire"
+          }
+        },
+        "hr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Celer"
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zeller"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sedano"
+          }
+        },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Salierai"
+          }
+        },
+        "lv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Selerijas"
+          }
+        },
+        "mt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Karfus"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Selderij"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Seler"
+          }
+        },
+        "pt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aipo"
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Țelină"
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zeler"
+          }
+        },
+        "sl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zelena"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Selleri"
+          }
+        }
       }
     },
     "allergen.crustaceans" : {
       "localizations" : {
-        "bg" : { "stringUnit" : { "state" : "translated", "value" : "Ракообразни" } },
-        "cs" : { "stringUnit" : { "state" : "translated", "value" : "Korýši" } },
-        "da" : { "stringUnit" : { "state" : "translated", "value" : "Krebsdyr" } },
-        "de" : { "stringUnit" : { "state" : "translated", "value" : "Krebstiere" } },
-        "el" : { "stringUnit" : { "state" : "translated", "value" : "Καρκινοειδή" } },
-        "en" : { "stringUnit" : { "state" : "translated", "value" : "Crustaceans" } },
-        "es" : { "stringUnit" : { "state" : "translated", "value" : "Crustáceos" } },
-        "et" : { "stringUnit" : { "state" : "translated", "value" : "Koorikloomad" } },
-        "fi" : { "stringUnit" : { "state" : "translated", "value" : "Äyriäiset" } },
-        "fr" : { "stringUnit" : { "state" : "translated", "value" : "Crustacés" } },
-        "ga" : { "stringUnit" : { "state" : "translated", "value" : "Crústacigh" } },
-        "hr" : { "stringUnit" : { "state" : "translated", "value" : "Rakovi" } },
-        "hu" : { "stringUnit" : { "state" : "translated", "value" : "Rákfélék" } },
-        "it" : { "stringUnit" : { "state" : "translated", "value" : "Crostacei" } },
-        "lt" : { "stringUnit" : { "state" : "translated", "value" : "Vėžiagyviai" } },
-        "lv" : { "stringUnit" : { "state" : "translated", "value" : "Vēžveidīgie" } },
-        "mt" : { "stringUnit" : { "state" : "translated", "value" : "Krustaċji" } },
-        "nl" : { "stringUnit" : { "state" : "translated", "value" : "Schaaldieren" } },
-        "pl" : { "stringUnit" : { "state" : "translated", "value" : "Skorupiaki" } },
-        "pt" : { "stringUnit" : { "state" : "translated", "value" : "Crustáceos" } },
-        "ro" : { "stringUnit" : { "state" : "translated", "value" : "Crustacee" } },
-        "sk" : { "stringUnit" : { "state" : "translated", "value" : "Kôrovce" } },
-        "sl" : { "stringUnit" : { "state" : "translated", "value" : "Raki" } },
-        "sv" : { "stringUnit" : { "state" : "translated", "value" : "Skaldjur" } }
+        "bg" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ракообразни"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Korýši"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Krebsdyr"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Krebstiere"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Καρκινοειδή"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Crustaceans"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Crustáceos"
+          }
+        },
+        "et" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Koorikloomad"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Äyriäiset"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Crustacés"
+          }
+        },
+        "ga" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Crústacigh"
+          }
+        },
+        "hr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rakovi"
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rákfélék"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Crostacei"
+          }
+        },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vėžiagyviai"
+          }
+        },
+        "lv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vēžveidīgie"
+          }
+        },
+        "mt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Krustaċji"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Schaaldieren"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skorupiaki"
+          }
+        },
+        "pt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Crustáceos"
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Crustacee"
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kôrovce"
+          }
+        },
+        "sl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Raki"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skaldjur"
+          }
+        }
       }
     },
     "allergen.eggs" : {
       "localizations" : {
-        "bg" : { "stringUnit" : { "state" : "translated", "value" : "Яйца" } },
-        "cs" : { "stringUnit" : { "state" : "translated", "value" : "Vejce" } },
-        "da" : { "stringUnit" : { "state" : "translated", "value" : "Æg" } },
-        "de" : { "stringUnit" : { "state" : "translated", "value" : "Eier" } },
-        "el" : { "stringUnit" : { "state" : "translated", "value" : "Αυγά" } },
-        "en" : { "stringUnit" : { "state" : "translated", "value" : "Eggs" } },
-        "es" : { "stringUnit" : { "state" : "translated", "value" : "Huevos" } },
-        "et" : { "stringUnit" : { "state" : "translated", "value" : "Munad" } },
-        "fi" : { "stringUnit" : { "state" : "translated", "value" : "Kananmunat" } },
-        "fr" : { "stringUnit" : { "state" : "translated", "value" : "Œufs" } },
-        "ga" : { "stringUnit" : { "state" : "translated", "value" : "Uibheacha" } },
-        "hr" : { "stringUnit" : { "state" : "translated", "value" : "Jaja" } },
-        "hu" : { "stringUnit" : { "state" : "translated", "value" : "Tojás" } },
-        "it" : { "stringUnit" : { "state" : "translated", "value" : "Uova" } },
-        "lt" : { "stringUnit" : { "state" : "translated", "value" : "Kiaušiniai" } },
-        "lv" : { "stringUnit" : { "state" : "translated", "value" : "Olas" } },
-        "mt" : { "stringUnit" : { "state" : "translated", "value" : "Bajd" } },
-        "nl" : { "stringUnit" : { "state" : "translated", "value" : "Eieren" } },
-        "pl" : { "stringUnit" : { "state" : "translated", "value" : "Jaja" } },
-        "pt" : { "stringUnit" : { "state" : "translated", "value" : "Ovos" } },
-        "ro" : { "stringUnit" : { "state" : "translated", "value" : "Ouă" } },
-        "sk" : { "stringUnit" : { "state" : "translated", "value" : "Vajcia" } },
-        "sl" : { "stringUnit" : { "state" : "translated", "value" : "Jajca" } },
-        "sv" : { "stringUnit" : { "state" : "translated", "value" : "Ägg" } }
+        "bg" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Яйца"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vejce"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Æg"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Eier"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Αυγά"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Eggs"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Huevos"
+          }
+        },
+        "et" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Munad"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kananmunat"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Œufs"
+          }
+        },
+        "ga" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Uibheacha"
+          }
+        },
+        "hr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jaja"
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tojás"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Uova"
+          }
+        },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kiaušiniai"
+          }
+        },
+        "lv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Olas"
+          }
+        },
+        "mt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bajd"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Eieren"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jaja"
+          }
+        },
+        "pt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ovos"
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ouă"
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vajcia"
+          }
+        },
+        "sl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jajca"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ägg"
+          }
+        }
       }
     },
     "allergen.fish" : {
       "localizations" : {
-        "bg" : { "stringUnit" : { "state" : "translated", "value" : "Риба" } },
-        "cs" : { "stringUnit" : { "state" : "translated", "value" : "Ryby" } },
-        "da" : { "stringUnit" : { "state" : "translated", "value" : "Fisk" } },
-        "de" : { "stringUnit" : { "state" : "translated", "value" : "Fisch" } },
-        "el" : { "stringUnit" : { "state" : "translated", "value" : "Ψάρι" } },
-        "en" : { "stringUnit" : { "state" : "translated", "value" : "Fish" } },
-        "es" : { "stringUnit" : { "state" : "translated", "value" : "Pescado" } },
-        "et" : { "stringUnit" : { "state" : "translated", "value" : "Kala" } },
-        "fi" : { "stringUnit" : { "state" : "translated", "value" : "Kala" } },
-        "fr" : { "stringUnit" : { "state" : "translated", "value" : "Poisson" } },
-        "ga" : { "stringUnit" : { "state" : "translated", "value" : "Iasc" } },
-        "hr" : { "stringUnit" : { "state" : "translated", "value" : "Riba" } },
-        "hu" : { "stringUnit" : { "state" : "translated", "value" : "Hal" } },
-        "it" : { "stringUnit" : { "state" : "translated", "value" : "Pesce" } },
-        "lt" : { "stringUnit" : { "state" : "translated", "value" : "Žuvis" } },
-        "lv" : { "stringUnit" : { "state" : "translated", "value" : "Zivis" } },
-        "mt" : { "stringUnit" : { "state" : "translated", "value" : "Ħut" } },
-        "nl" : { "stringUnit" : { "state" : "translated", "value" : "Vis" } },
-        "pl" : { "stringUnit" : { "state" : "translated", "value" : "Ryby" } },
-        "pt" : { "stringUnit" : { "state" : "translated", "value" : "Peixe" } },
-        "ro" : { "stringUnit" : { "state" : "translated", "value" : "Pește" } },
-        "sk" : { "stringUnit" : { "state" : "translated", "value" : "Ryby" } },
-        "sl" : { "stringUnit" : { "state" : "translated", "value" : "Ribe" } },
-        "sv" : { "stringUnit" : { "state" : "translated", "value" : "Fisk" } }
+        "bg" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Риба"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ryby"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fisk"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fisch"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ψάρι"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fish"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pescado"
+          }
+        },
+        "et" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kala"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kala"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Poisson"
+          }
+        },
+        "ga" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Iasc"
+          }
+        },
+        "hr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Riba"
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hal"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pesce"
+          }
+        },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Žuvis"
+          }
+        },
+        "lv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zivis"
+          }
+        },
+        "mt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ħut"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vis"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ryby"
+          }
+        },
+        "pt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Peixe"
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pește"
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ryby"
+          }
+        },
+        "sl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ribe"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fisk"
+          }
+        }
       }
     },
     "allergen.gluten" : {
       "localizations" : {
-        "bg" : { "stringUnit" : { "state" : "translated", "value" : "Глутен" } },
-        "cs" : { "stringUnit" : { "state" : "translated", "value" : "Lepek" } },
-        "da" : { "stringUnit" : { "state" : "translated", "value" : "Gluten" } },
-        "de" : { "stringUnit" : { "state" : "translated", "value" : "Gluten" } },
-        "el" : { "stringUnit" : { "state" : "translated", "value" : "Γλουτένη" } },
-        "en" : { "stringUnit" : { "state" : "translated", "value" : "Gluten" } },
-        "es" : { "stringUnit" : { "state" : "translated", "value" : "Gluten" } },
-        "et" : { "stringUnit" : { "state" : "translated", "value" : "Gluteen" } },
-        "fi" : { "stringUnit" : { "state" : "translated", "value" : "Gluteeni" } },
-        "fr" : { "stringUnit" : { "state" : "translated", "value" : "Gluten" } },
-        "ga" : { "stringUnit" : { "state" : "translated", "value" : "Glútan" } },
-        "hr" : { "stringUnit" : { "state" : "translated", "value" : "Gluten" } },
-        "hu" : { "stringUnit" : { "state" : "translated", "value" : "Glutén" } },
-        "it" : { "stringUnit" : { "state" : "translated", "value" : "Glutine" } },
-        "lt" : { "stringUnit" : { "state" : "translated", "value" : "Gliutenas" } },
-        "lv" : { "stringUnit" : { "state" : "translated", "value" : "Lipeklis" } },
-        "mt" : { "stringUnit" : { "state" : "translated", "value" : "Glutina" } },
-        "nl" : { "stringUnit" : { "state" : "translated", "value" : "Gluten" } },
-        "pl" : { "stringUnit" : { "state" : "translated", "value" : "Gluten" } },
-        "pt" : { "stringUnit" : { "state" : "translated", "value" : "Glúten" } },
-        "ro" : { "stringUnit" : { "state" : "translated", "value" : "Gluten" } },
-        "sk" : { "stringUnit" : { "state" : "translated", "value" : "Lepok" } },
-        "sl" : { "stringUnit" : { "state" : "translated", "value" : "Gluten" } },
-        "sv" : { "stringUnit" : { "state" : "translated", "value" : "Gluten" } }
+        "bg" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Глутен"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lepek"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gluten"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gluten"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Γλουτένη"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gluten"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gluten"
+          }
+        },
+        "et" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gluteen"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gluteeni"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gluten"
+          }
+        },
+        "ga" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Glútan"
+          }
+        },
+        "hr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gluten"
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Glutén"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Glutine"
+          }
+        },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gliutenas"
+          }
+        },
+        "lv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lipeklis"
+          }
+        },
+        "mt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Glutina"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gluten"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gluten"
+          }
+        },
+        "pt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Glúten"
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gluten"
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lepok"
+          }
+        },
+        "sl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gluten"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gluten"
+          }
+        }
       }
     },
     "allergen.lupin" : {
       "localizations" : {
-        "bg" : { "stringUnit" : { "state" : "translated", "value" : "Лупина" } },
-        "cs" : { "stringUnit" : { "state" : "translated", "value" : "Vlčí bob" } },
-        "da" : { "stringUnit" : { "state" : "translated", "value" : "Lupin" } },
-        "de" : { "stringUnit" : { "state" : "translated", "value" : "Lupinen" } },
-        "el" : { "stringUnit" : { "state" : "translated", "value" : "Λούπινο" } },
-        "en" : { "stringUnit" : { "state" : "translated", "value" : "Lupin" } },
-        "es" : { "stringUnit" : { "state" : "translated", "value" : "Altramuces" } },
-        "et" : { "stringUnit" : { "state" : "translated", "value" : "Lupiin" } },
-        "fi" : { "stringUnit" : { "state" : "translated", "value" : "Lupiini" } },
-        "fr" : { "stringUnit" : { "state" : "translated", "value" : "Lupin" } },
-        "ga" : { "stringUnit" : { "state" : "translated", "value" : "Lúipín" } },
-        "hr" : { "stringUnit" : { "state" : "translated", "value" : "Lupina" } },
-        "hu" : { "stringUnit" : { "state" : "translated", "value" : "Csillagfürt" } },
-        "it" : { "stringUnit" : { "state" : "translated", "value" : "Lupini" } },
-        "lt" : { "stringUnit" : { "state" : "translated", "value" : "Lubinai" } },
-        "lv" : { "stringUnit" : { "state" : "translated", "value" : "Lupīna" } },
-        "mt" : { "stringUnit" : { "state" : "translated", "value" : "Lupini" } },
-        "nl" : { "stringUnit" : { "state" : "translated", "value" : "Lupine" } },
-        "pl" : { "stringUnit" : { "state" : "translated", "value" : "Łubin" } },
-        "pt" : { "stringUnit" : { "state" : "translated", "value" : "Tremoço" } },
-        "ro" : { "stringUnit" : { "state" : "translated", "value" : "Lupin" } },
-        "sk" : { "stringUnit" : { "state" : "translated", "value" : "Vlčí bôb" } },
-        "sl" : { "stringUnit" : { "state" : "translated", "value" : "Volčji bob" } },
-        "sv" : { "stringUnit" : { "state" : "translated", "value" : "Lupin" } }
+        "bg" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Лупина"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vlčí bob"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lupin"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lupinen"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Λούπινο"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lupin"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Altramuces"
+          }
+        },
+        "et" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lupiin"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lupiini"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lupin"
+          }
+        },
+        "ga" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lúipín"
+          }
+        },
+        "hr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lupina"
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Csillagfürt"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lupini"
+          }
+        },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lubinai"
+          }
+        },
+        "lv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lupīna"
+          }
+        },
+        "mt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lupini"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lupine"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Łubin"
+          }
+        },
+        "pt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tremoço"
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lupin"
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vlčí bôb"
+          }
+        },
+        "sl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Volčji bob"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lupin"
+          }
+        }
       }
     },
     "allergen.milk" : {
       "localizations" : {
-        "bg" : { "stringUnit" : { "state" : "translated", "value" : "Мляко" } },
-        "cs" : { "stringUnit" : { "state" : "translated", "value" : "Mléko" } },
-        "da" : { "stringUnit" : { "state" : "translated", "value" : "Mælk" } },
-        "de" : { "stringUnit" : { "state" : "translated", "value" : "Milch" } },
-        "el" : { "stringUnit" : { "state" : "translated", "value" : "Γάλα" } },
-        "en" : { "stringUnit" : { "state" : "translated", "value" : "Milk" } },
-        "es" : { "stringUnit" : { "state" : "translated", "value" : "Leche" } },
-        "et" : { "stringUnit" : { "state" : "translated", "value" : "Piim" } },
-        "fi" : { "stringUnit" : { "state" : "translated", "value" : "Maito" } },
-        "fr" : { "stringUnit" : { "state" : "translated", "value" : "Lait" } },
-        "ga" : { "stringUnit" : { "state" : "translated", "value" : "Bainne" } },
-        "hr" : { "stringUnit" : { "state" : "translated", "value" : "Mlijeko" } },
-        "hu" : { "stringUnit" : { "state" : "translated", "value" : "Tej" } },
-        "it" : { "stringUnit" : { "state" : "translated", "value" : "Latte" } },
-        "lt" : { "stringUnit" : { "state" : "translated", "value" : "Pienas" } },
-        "lv" : { "stringUnit" : { "state" : "translated", "value" : "Piens" } },
-        "mt" : { "stringUnit" : { "state" : "translated", "value" : "Ħalib" } },
-        "nl" : { "stringUnit" : { "state" : "translated", "value" : "Melk" } },
-        "pl" : { "stringUnit" : { "state" : "translated", "value" : "Mleko" } },
-        "pt" : { "stringUnit" : { "state" : "translated", "value" : "Leite" } },
-        "ro" : { "stringUnit" : { "state" : "translated", "value" : "Lapte" } },
-        "sk" : { "stringUnit" : { "state" : "translated", "value" : "Mlieko" } },
-        "sl" : { "stringUnit" : { "state" : "translated", "value" : "Mleko" } },
-        "sv" : { "stringUnit" : { "state" : "translated", "value" : "Mjölk" } }
+        "bg" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Мляко"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mléko"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mælk"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Milch"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Γάλα"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Milk"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Leche"
+          }
+        },
+        "et" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Piim"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Maito"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lait"
+          }
+        },
+        "ga" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bainne"
+          }
+        },
+        "hr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mlijeko"
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tej"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Latte"
+          }
+        },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pienas"
+          }
+        },
+        "lv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Piens"
+          }
+        },
+        "mt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ħalib"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Melk"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mleko"
+          }
+        },
+        "pt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Leite"
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lapte"
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mlieko"
+          }
+        },
+        "sl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mleko"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mjölk"
+          }
+        }
       }
     },
     "allergen.molluscs" : {
       "localizations" : {
-        "bg" : { "stringUnit" : { "state" : "translated", "value" : "Мекотели" } },
-        "cs" : { "stringUnit" : { "state" : "translated", "value" : "Měkkýši" } },
-        "da" : { "stringUnit" : { "state" : "translated", "value" : "Bløddyr" } },
-        "de" : { "stringUnit" : { "state" : "translated", "value" : "Weichtiere" } },
-        "el" : { "stringUnit" : { "state" : "translated", "value" : "Μαλάκια" } },
-        "en" : { "stringUnit" : { "state" : "translated", "value" : "Molluscs" } },
-        "es" : { "stringUnit" : { "state" : "translated", "value" : "Moluscos" } },
-        "et" : { "stringUnit" : { "state" : "translated", "value" : "Limused" } },
-        "fi" : { "stringUnit" : { "state" : "translated", "value" : "Nilviäiset" } },
-        "fr" : { "stringUnit" : { "state" : "translated", "value" : "Mollusques" } },
-        "ga" : { "stringUnit" : { "state" : "translated", "value" : "Moilisc" } },
-        "hr" : { "stringUnit" : { "state" : "translated", "value" : "Mekušci" } },
-        "hu" : { "stringUnit" : { "state" : "translated", "value" : "Puhatestűek" } },
-        "it" : { "stringUnit" : { "state" : "translated", "value" : "Molluschi" } },
-        "lt" : { "stringUnit" : { "state" : "translated", "value" : "Moliuskai" } },
-        "lv" : { "stringUnit" : { "state" : "translated", "value" : "Gliemji" } },
-        "mt" : { "stringUnit" : { "state" : "translated", "value" : "Molluski" } },
-        "nl" : { "stringUnit" : { "state" : "translated", "value" : "Weekdieren" } },
-        "pl" : { "stringUnit" : { "state" : "translated", "value" : "Mięczaki" } },
-        "pt" : { "stringUnit" : { "state" : "translated", "value" : "Moluscos" } },
-        "ro" : { "stringUnit" : { "state" : "translated", "value" : "Moluște" } },
-        "sk" : { "stringUnit" : { "state" : "translated", "value" : "Mäkkýše" } },
-        "sl" : { "stringUnit" : { "state" : "translated", "value" : "Mehkužci" } },
-        "sv" : { "stringUnit" : { "state" : "translated", "value" : "Blötdjur" } }
+        "bg" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Мекотели"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Měkkýši"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bløddyr"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Weichtiere"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Μαλάκια"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Molluscs"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Moluscos"
+          }
+        },
+        "et" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Limused"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nilviäiset"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mollusques"
+          }
+        },
+        "ga" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Moilisc"
+          }
+        },
+        "hr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mekušci"
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Puhatestűek"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Molluschi"
+          }
+        },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Moliuskai"
+          }
+        },
+        "lv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gliemji"
+          }
+        },
+        "mt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Molluski"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Weekdieren"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mięczaki"
+          }
+        },
+        "pt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Moluscos"
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Moluște"
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mäkkýše"
+          }
+        },
+        "sl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mehkužci"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Blötdjur"
+          }
+        }
       }
     },
     "allergen.mustard" : {
       "localizations" : {
-        "bg" : { "stringUnit" : { "state" : "translated", "value" : "Горчица" } },
-        "cs" : { "stringUnit" : { "state" : "translated", "value" : "Hořčice" } },
-        "da" : { "stringUnit" : { "state" : "translated", "value" : "Sennep" } },
-        "de" : { "stringUnit" : { "state" : "translated", "value" : "Senf" } },
-        "el" : { "stringUnit" : { "state" : "translated", "value" : "Μουστάρδα" } },
-        "en" : { "stringUnit" : { "state" : "translated", "value" : "Mustard" } },
-        "es" : { "stringUnit" : { "state" : "translated", "value" : "Mostaza" } },
-        "et" : { "stringUnit" : { "state" : "translated", "value" : "Sinep" } },
-        "fi" : { "stringUnit" : { "state" : "translated", "value" : "Sinappi" } },
-        "fr" : { "stringUnit" : { "state" : "translated", "value" : "Moutarde" } },
-        "ga" : { "stringUnit" : { "state" : "translated", "value" : "Mustard" } },
-        "hr" : { "stringUnit" : { "state" : "translated", "value" : "Gorušica" } },
-        "hu" : { "stringUnit" : { "state" : "translated", "value" : "Mustár" } },
-        "it" : { "stringUnit" : { "state" : "translated", "value" : "Senape" } },
-        "lt" : { "stringUnit" : { "state" : "translated", "value" : "Garstyčios" } },
-        "lv" : { "stringUnit" : { "state" : "translated", "value" : "Sinepes" } },
-        "mt" : { "stringUnit" : { "state" : "translated", "value" : "Mustarda" } },
-        "nl" : { "stringUnit" : { "state" : "translated", "value" : "Mosterd" } },
-        "pl" : { "stringUnit" : { "state" : "translated", "value" : "Gorczyca" } },
-        "pt" : { "stringUnit" : { "state" : "translated", "value" : "Mostarda" } },
-        "ro" : { "stringUnit" : { "state" : "translated", "value" : "Muștar" } },
-        "sk" : { "stringUnit" : { "state" : "translated", "value" : "Horčica" } },
-        "sl" : { "stringUnit" : { "state" : "translated", "value" : "Gorčica" } },
-        "sv" : { "stringUnit" : { "state" : "translated", "value" : "Senap" } }
+        "bg" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Горчица"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hořčice"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sennep"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Senf"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Μουστάρδα"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mustard"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mostaza"
+          }
+        },
+        "et" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sinep"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sinappi"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Moutarde"
+          }
+        },
+        "ga" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mustard"
+          }
+        },
+        "hr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gorušica"
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mustár"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Senape"
+          }
+        },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Garstyčios"
+          }
+        },
+        "lv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sinepes"
+          }
+        },
+        "mt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mustarda"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mosterd"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gorczyca"
+          }
+        },
+        "pt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mostarda"
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Muștar"
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Horčica"
+          }
+        },
+        "sl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gorčica"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Senap"
+          }
+        }
       }
     },
     "allergen.nuts" : {
       "localizations" : {
-        "bg" : { "stringUnit" : { "state" : "translated", "value" : "Ядки" } },
-        "cs" : { "stringUnit" : { "state" : "translated", "value" : "Ořechy" } },
-        "da" : { "stringUnit" : { "state" : "translated", "value" : "Nødder" } },
-        "de" : { "stringUnit" : { "state" : "translated", "value" : "Schalenfrüchte" } },
-        "el" : { "stringUnit" : { "state" : "translated", "value" : "Ξηροί καρποί" } },
-        "en" : { "stringUnit" : { "state" : "translated", "value" : "Tree nuts" } },
-        "es" : { "stringUnit" : { "state" : "translated", "value" : "Frutos de cáscara" } },
-        "et" : { "stringUnit" : { "state" : "translated", "value" : "Pähklid" } },
-        "fi" : { "stringUnit" : { "state" : "translated", "value" : "Pähkinät" } },
-        "fr" : { "stringUnit" : { "state" : "translated", "value" : "Fruits à coque" } },
-        "ga" : { "stringUnit" : { "state" : "translated", "value" : "Cnónna" } },
-        "hr" : { "stringUnit" : { "state" : "translated", "value" : "Orašasti plodovi" } },
-        "hu" : { "stringUnit" : { "state" : "translated", "value" : "Diófélék" } },
-        "it" : { "stringUnit" : { "state" : "translated", "value" : "Frutta a guscio" } },
-        "lt" : { "stringUnit" : { "state" : "translated", "value" : "Riešutai" } },
-        "lv" : { "stringUnit" : { "state" : "translated", "value" : "Rieksti" } },
-        "mt" : { "stringUnit" : { "state" : "translated", "value" : "Ġewż" } },
-        "nl" : { "stringUnit" : { "state" : "translated", "value" : "Noten" } },
-        "pl" : { "stringUnit" : { "state" : "translated", "value" : "Orzechy" } },
-        "pt" : { "stringUnit" : { "state" : "translated", "value" : "Frutos de casca rija" } },
-        "ro" : { "stringUnit" : { "state" : "translated", "value" : "Nuci" } },
-        "sk" : { "stringUnit" : { "state" : "translated", "value" : "Orechy" } },
-        "sl" : { "stringUnit" : { "state" : "translated", "value" : "Oreščki" } },
-        "sv" : { "stringUnit" : { "state" : "translated", "value" : "Nötter" } }
+        "bg" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ядки"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ořechy"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nødder"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Schalenfrüchte"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ξηροί καρποί"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tree nuts"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Frutos de cáscara"
+          }
+        },
+        "et" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pähklid"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pähkinät"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fruits à coque"
+          }
+        },
+        "ga" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cnónna"
+          }
+        },
+        "hr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Orašasti plodovi"
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Diófélék"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Frutta a guscio"
+          }
+        },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Riešutai"
+          }
+        },
+        "lv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rieksti"
+          }
+        },
+        "mt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ġewż"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Noten"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Orzechy"
+          }
+        },
+        "pt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Frutos de casca rija"
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nuci"
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Orechy"
+          }
+        },
+        "sl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Oreščki"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nötter"
+          }
+        }
       }
     },
     "allergen.peanuts" : {
       "localizations" : {
-        "bg" : { "stringUnit" : { "state" : "translated", "value" : "Фъстъци" } },
-        "cs" : { "stringUnit" : { "state" : "translated", "value" : "Arašídy" } },
-        "da" : { "stringUnit" : { "state" : "translated", "value" : "Jordnødder" } },
-        "de" : { "stringUnit" : { "state" : "translated", "value" : "Erdnüsse" } },
-        "el" : { "stringUnit" : { "state" : "translated", "value" : "Αράπικα φιστίκια" } },
-        "en" : { "stringUnit" : { "state" : "translated", "value" : "Peanuts" } },
-        "es" : { "stringUnit" : { "state" : "translated", "value" : "Cacahuetes" } },
-        "et" : { "stringUnit" : { "state" : "translated", "value" : "Maapähklid" } },
-        "fi" : { "stringUnit" : { "state" : "translated", "value" : "Maapähkinät" } },
-        "fr" : { "stringUnit" : { "state" : "translated", "value" : "Arachides" } },
-        "ga" : { "stringUnit" : { "state" : "translated", "value" : "Piseanna talún" } },
-        "hr" : { "stringUnit" : { "state" : "translated", "value" : "Kikiriki" } },
-        "hu" : { "stringUnit" : { "state" : "translated", "value" : "Földimogyoró" } },
-        "it" : { "stringUnit" : { "state" : "translated", "value" : "Arachidi" } },
-        "lt" : { "stringUnit" : { "state" : "translated", "value" : "Žemės riešutai" } },
-        "lv" : { "stringUnit" : { "state" : "translated", "value" : "Zemesrieksti" } },
-        "mt" : { "stringUnit" : { "state" : "translated", "value" : "Karawett" } },
-        "nl" : { "stringUnit" : { "state" : "translated", "value" : "Pinda's" } },
-        "pl" : { "stringUnit" : { "state" : "translated", "value" : "Orzeszki ziemne" } },
-        "pt" : { "stringUnit" : { "state" : "translated", "value" : "Amendoins" } },
-        "ro" : { "stringUnit" : { "state" : "translated", "value" : "Arahide" } },
-        "sk" : { "stringUnit" : { "state" : "translated", "value" : "Arašidy" } },
-        "sl" : { "stringUnit" : { "state" : "translated", "value" : "Arašidi" } },
-        "sv" : { "stringUnit" : { "state" : "translated", "value" : "Jordnötter" } }
+        "bg" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Фъстъци"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Arašídy"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jordnødder"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Erdnüsse"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Αράπικα φιστίκια"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Peanuts"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cacahuetes"
+          }
+        },
+        "et" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Maapähklid"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Maapähkinät"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Arachides"
+          }
+        },
+        "ga" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Piseanna talún"
+          }
+        },
+        "hr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kikiriki"
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Földimogyoró"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Arachidi"
+          }
+        },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Žemės riešutai"
+          }
+        },
+        "lv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zemesrieksti"
+          }
+        },
+        "mt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Karawett"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pinda's"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Orzeszki ziemne"
+          }
+        },
+        "pt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Amendoins"
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Arahide"
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Arašidy"
+          }
+        },
+        "sl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Arašidi"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jordnötter"
+          }
+        }
       }
     },
     "allergen.sesame" : {
       "localizations" : {
-        "bg" : { "stringUnit" : { "state" : "translated", "value" : "Сусам" } },
-        "cs" : { "stringUnit" : { "state" : "translated", "value" : "Sezam" } },
-        "da" : { "stringUnit" : { "state" : "translated", "value" : "Sesam" } },
-        "de" : { "stringUnit" : { "state" : "translated", "value" : "Sesam" } },
-        "el" : { "stringUnit" : { "state" : "translated", "value" : "Σουσάμι" } },
-        "en" : { "stringUnit" : { "state" : "translated", "value" : "Sesame" } },
-        "es" : { "stringUnit" : { "state" : "translated", "value" : "Sésamo" } },
-        "et" : { "stringUnit" : { "state" : "translated", "value" : "Seesamiseemned" } },
-        "fi" : { "stringUnit" : { "state" : "translated", "value" : "Seesami" } },
-        "fr" : { "stringUnit" : { "state" : "translated", "value" : "Sésame" } },
-        "ga" : { "stringUnit" : { "state" : "translated", "value" : "Seasamain" } },
-        "hr" : { "stringUnit" : { "state" : "translated", "value" : "Sezam" } },
-        "hu" : { "stringUnit" : { "state" : "translated", "value" : "Szezámmag" } },
-        "it" : { "stringUnit" : { "state" : "translated", "value" : "Sesamo" } },
-        "lt" : { "stringUnit" : { "state" : "translated", "value" : "Sezamas" } },
-        "lv" : { "stringUnit" : { "state" : "translated", "value" : "Sezams" } },
-        "mt" : { "stringUnit" : { "state" : "translated", "value" : "Ġunġlien" } },
-        "nl" : { "stringUnit" : { "state" : "translated", "value" : "Sesam" } },
-        "pl" : { "stringUnit" : { "state" : "translated", "value" : "Sezam" } },
-        "pt" : { "stringUnit" : { "state" : "translated", "value" : "Sésamo" } },
-        "ro" : { "stringUnit" : { "state" : "translated", "value" : "Susan" } },
-        "sk" : { "stringUnit" : { "state" : "translated", "value" : "Sezam" } },
-        "sl" : { "stringUnit" : { "state" : "translated", "value" : "Sezam" } },
-        "sv" : { "stringUnit" : { "state" : "translated", "value" : "Sesam" } }
+        "bg" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Сусам"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sezam"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sesam"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sesam"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Σουσάμι"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sesame"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sésamo"
+          }
+        },
+        "et" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Seesamiseemned"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Seesami"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sésame"
+          }
+        },
+        "ga" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Seasamain"
+          }
+        },
+        "hr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sezam"
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Szezámmag"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sesamo"
+          }
+        },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sezamas"
+          }
+        },
+        "lv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sezams"
+          }
+        },
+        "mt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ġunġlien"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sesam"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sezam"
+          }
+        },
+        "pt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sésamo"
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Susan"
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sezam"
+          }
+        },
+        "sl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sezam"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sesam"
+          }
+        }
       }
     },
     "allergen.soybeans" : {
       "localizations" : {
-        "bg" : { "stringUnit" : { "state" : "translated", "value" : "Соя" } },
-        "cs" : { "stringUnit" : { "state" : "translated", "value" : "Sója" } },
-        "da" : { "stringUnit" : { "state" : "translated", "value" : "Soja" } },
-        "de" : { "stringUnit" : { "state" : "translated", "value" : "Soja" } },
-        "el" : { "stringUnit" : { "state" : "translated", "value" : "Σόγια" } },
-        "en" : { "stringUnit" : { "state" : "translated", "value" : "Soybeans" } },
-        "es" : { "stringUnit" : { "state" : "translated", "value" : "Soja" } },
-        "et" : { "stringUnit" : { "state" : "translated", "value" : "Sojaoad" } },
-        "fi" : { "stringUnit" : { "state" : "translated", "value" : "Soija" } },
-        "fr" : { "stringUnit" : { "state" : "translated", "value" : "Soja" } },
-        "ga" : { "stringUnit" : { "state" : "translated", "value" : "Pónairí soighe" } },
-        "hr" : { "stringUnit" : { "state" : "translated", "value" : "Soja" } },
-        "hu" : { "stringUnit" : { "state" : "translated", "value" : "Szója" } },
-        "it" : { "stringUnit" : { "state" : "translated", "value" : "Soia" } },
-        "lt" : { "stringUnit" : { "state" : "translated", "value" : "Sojos pupelės" } },
-        "lv" : { "stringUnit" : { "state" : "translated", "value" : "Sojas pupas" } },
-        "mt" : { "stringUnit" : { "state" : "translated", "value" : "Sojja" } },
-        "nl" : { "stringUnit" : { "state" : "translated", "value" : "Soja" } },
-        "pl" : { "stringUnit" : { "state" : "translated", "value" : "Soja" } },
-        "pt" : { "stringUnit" : { "state" : "translated", "value" : "Soja" } },
-        "ro" : { "stringUnit" : { "state" : "translated", "value" : "Soia" } },
-        "sk" : { "stringUnit" : { "state" : "translated", "value" : "Sója" } },
-        "sl" : { "stringUnit" : { "state" : "translated", "value" : "Soja" } },
-        "sv" : { "stringUnit" : { "state" : "translated", "value" : "Soja" } }
+        "bg" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Соя"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sója"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Soja"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Soja"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Σόγια"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Soybeans"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Soja"
+          }
+        },
+        "et" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sojaoad"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Soija"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Soja"
+          }
+        },
+        "ga" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pónairí soighe"
+          }
+        },
+        "hr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Soja"
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Szója"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Soia"
+          }
+        },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sojos pupelės"
+          }
+        },
+        "lv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sojas pupas"
+          }
+        },
+        "mt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sojja"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Soja"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Soja"
+          }
+        },
+        "pt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Soja"
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Soia"
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sója"
+          }
+        },
+        "sl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Soja"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Soja"
+          }
+        }
       }
     },
     "allergen.sulphites" : {
       "localizations" : {
-        "bg" : { "stringUnit" : { "state" : "translated", "value" : "Сулфити" } },
-        "cs" : { "stringUnit" : { "state" : "translated", "value" : "Siřičitany" } },
-        "da" : { "stringUnit" : { "state" : "translated", "value" : "Sulfitter" } },
-        "de" : { "stringUnit" : { "state" : "translated", "value" : "Sulfite" } },
-        "el" : { "stringUnit" : { "state" : "translated", "value" : "Θειώδη" } },
-        "en" : { "stringUnit" : { "state" : "translated", "value" : "Sulphites" } },
-        "es" : { "stringUnit" : { "state" : "translated", "value" : "Sulfitos" } },
-        "et" : { "stringUnit" : { "state" : "translated", "value" : "Sulfitid" } },
-        "fi" : { "stringUnit" : { "state" : "translated", "value" : "Sulfiitit" } },
-        "fr" : { "stringUnit" : { "state" : "translated", "value" : "Sulfites" } },
-        "ga" : { "stringUnit" : { "state" : "translated", "value" : "Sulfítí" } },
-        "hr" : { "stringUnit" : { "state" : "translated", "value" : "Sulfiti" } },
-        "hu" : { "stringUnit" : { "state" : "translated", "value" : "Szulfitok" } },
-        "it" : { "stringUnit" : { "state" : "translated", "value" : "Solfiti" } },
-        "lt" : { "stringUnit" : { "state" : "translated", "value" : "Sulfitai" } },
-        "lv" : { "stringUnit" : { "state" : "translated", "value" : "Sulfīti" } },
-        "mt" : { "stringUnit" : { "state" : "translated", "value" : "Sulfiti" } },
-        "nl" : { "stringUnit" : { "state" : "translated", "value" : "Sulfieten" } },
-        "pl" : { "stringUnit" : { "state" : "translated", "value" : "Siarczyny" } },
-        "pt" : { "stringUnit" : { "state" : "translated", "value" : "Sulfitos" } },
-        "ro" : { "stringUnit" : { "state" : "translated", "value" : "Sulfiți" } },
-        "sk" : { "stringUnit" : { "state" : "translated", "value" : "Siričitany" } },
-        "sl" : { "stringUnit" : { "state" : "translated", "value" : "Sulfiti" } },
-        "sv" : { "stringUnit" : { "state" : "translated", "value" : "Sulfiter" } }
+        "bg" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Сулфити"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Siřičitany"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sulfitter"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sulfite"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Θειώδη"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sulphites"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sulfitos"
+          }
+        },
+        "et" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sulfitid"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sulfiitit"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sulfites"
+          }
+        },
+        "ga" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sulfítí"
+          }
+        },
+        "hr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sulfiti"
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Szulfitok"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Solfiti"
+          }
+        },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sulfitai"
+          }
+        },
+        "lv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sulfīti"
+          }
+        },
+        "mt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sulfiti"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sulfieten"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Siarczyny"
+          }
+        },
+        "pt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sulfitos"
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sulfiți"
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Siričitany"
+          }
+        },
+        "sl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sulfiti"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sulfiter"
+          }
+        }
+      }
+    },
+    "Allergens" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Allergene"
+          }
+        }
+      }
+    },
+    "Allow Camera Access" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kamerazugriff erlauben"
+          }
+        }
+      }
+    },
+    "Auto Torch in Low Light" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Automatisches Licht bei Dunkelheit"
+          }
+        }
+      }
+    },
+    "Barcode" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Barcode"
+          }
+        }
+      }
+    },
+    "Brand" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Marke"
+          }
+        }
+      }
+    },
+    "Cache" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cache"
+          }
+        }
+      }
+    },
+    "Cache Size" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cache-Größe"
+          }
+        }
+      }
+    },
+    "Cached Products" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gespeicherte Produkte"
+          }
+        }
+      }
+    },
+    "Camera Access Required" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kamerazugriff erforderlich"
+          }
+        }
+      }
+    },
+    "Cancel" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Abbrechen"
+          }
+        }
+      }
+    },
+    "Categories" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kategorien"
+          }
+        }
+      }
+    },
+    "Categories (e.g., Cereals, Breakfast)" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kategorien (z.B. Müsli, Frühstück)"
+          }
+        }
+      }
+    },
+    "Choose from Library" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aus Bibliothek wählen"
+          }
+        }
+      }
+    },
+    "Clear All" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Alle löschen"
+          }
+        }
+      }
+    },
+    "Clear All History" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gesamten Verlauf löschen"
+          }
+        }
+      }
+    },
+    "Clear Cache" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cache leeren"
+          }
+        }
+      }
+    },
+    "Clear History" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Verlauf löschen"
+          }
+        }
+      }
+    },
+    "Clear Scan History" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Scanverlauf löschen"
+          }
+        }
+      }
+    },
+    "Clearing cache will remove offline product data. Products will be re-downloaded when scanned." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Das Leeren des Cache entfernt die Offline-Produktdaten. Produkte werden beim erneuten Scannen heruntergeladen."
+          }
+        }
       }
     },
     "Contains" : {
       "localizations" : {
-        "de" : { "stringUnit" : { "state" : "translated", "value" : "Enthält" } },
-        "es" : { "stringUnit" : { "state" : "translated", "value" : "Contiene" } },
-        "fr" : { "stringUnit" : { "state" : "translated", "value" : "Contient" } },
-        "it" : { "stringUnit" : { "state" : "translated", "value" : "Contiene" } },
-        "nl" : { "stringUnit" : { "state" : "translated", "value" : "Bevat" } },
-        "pl" : { "stringUnit" : { "state" : "translated", "value" : "Zawiera" } },
-        "pt" : { "stringUnit" : { "state" : "translated", "value" : "Contém" } }
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Enthält"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Contiene"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Contient"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Contiene"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bevat"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zawiera"
+          }
+        },
+        "pt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Contém"
+          }
+        }
+      }
+    },
+    "Copy the ingredients list exactly as shown on the package." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kopieren Sie die Zutatenliste genau wie auf der Verpackung angegeben."
+          }
+        }
+      }
+    },
+    "Data" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Daten"
+          }
+        }
+      }
+    },
+    "Data Quality" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Datenqualität"
+          }
+        }
+      }
+    },
+    "Delete" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Löschen"
+          }
+        }
+      }
+    },
+    "Deutsch" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Deutsch"
+          }
+        }
+      }
+    },
+    "Discard" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Verwerfen"
+          }
+        }
       }
     },
     "Done" : {
       "localizations" : {
-        "de" : { "stringUnit" : { "state" : "translated", "value" : "Fertig" } },
-        "es" : { "stringUnit" : { "state" : "translated", "value" : "Hecho" } },
-        "fr" : { "stringUnit" : { "state" : "translated", "value" : "Terminé" } },
-        "it" : { "stringUnit" : { "state" : "translated", "value" : "Fine" } },
-        "nl" : { "stringUnit" : { "state" : "translated", "value" : "Klaar" } },
-        "pl" : { "stringUnit" : { "state" : "translated", "value" : "Gotowe" } },
-        "pt" : { "stringUnit" : { "state" : "translated", "value" : "Concluído" } }
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fertig"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hecho"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Terminé"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fine"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Klaar"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gotowe"
+          }
+        },
+        "pt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Concluído"
+          }
+        }
+      }
+    },
+    "Eco-Score" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Öko-Score"
+          }
+        }
+      }
+    },
+    "ecoscore.description.a" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sehr geringe Umweltauswirkungen"
+          }
+        }
+      }
+    },
+    "ecoscore.description.b" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Geringe Umweltauswirkungen"
+          }
+        }
+      }
+    },
+    "ecoscore.description.c" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mittlere Umweltauswirkungen"
+          }
+        }
+      }
+    },
+    "ecoscore.description.d" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hohe Umweltauswirkungen"
+          }
+        }
+      }
+    },
+    "ecoscore.description.e" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sehr hohe Umweltauswirkungen"
+          }
+        }
+      }
+    },
+    "English" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Englisch"
+          }
+        }
+      }
+    },
+    "Enter barcode manually" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Barcode manuell eingeben"
+          }
+        }
+      }
+    },
+    "Enter the barcode number manually" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Geben Sie die Barcode-Nummer manuell ein"
+          }
+        }
+      }
+    },
+    "Error" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fehler"
+          }
+        }
       }
     },
     "error.camera_config_failed" : {
       "localizations" : {
-        "de" : { "stringUnit" : { "state" : "translated", "value" : "Kamerakonfiguration fehlgeschlagen" } },
-        "en" : { "stringUnit" : { "state" : "translated", "value" : "Camera configuration failed" } },
-        "es" : { "stringUnit" : { "state" : "translated", "value" : "Error en la configuración de la cámara" } },
-        "fr" : { "stringUnit" : { "state" : "translated", "value" : "Échec de la configuration de la caméra" } },
-        "it" : { "stringUnit" : { "state" : "translated", "value" : "Configurazione fotocamera non riuscita" } },
-        "nl" : { "stringUnit" : { "state" : "translated", "value" : "Camera configuratie mislukt" } },
-        "pl" : { "stringUnit" : { "state" : "translated", "value" : "Konfiguracja aparatu nie powiodła się" } },
-        "pt" : { "stringUnit" : { "state" : "translated", "value" : "Falha na configuração da câmara" } }
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kamerakonfiguration fehlgeschlagen"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Camera configuration failed"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Error en la configuración de la cámara"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Échec de la configuration de la caméra"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Configurazione fotocamera non riuscita"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Camera configuratie mislukt"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Konfiguracja aparatu nie powiodła się"
+          }
+        },
+        "pt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Falha na configuração da câmara"
+          }
+        }
       }
     },
     "error.camera_denied" : {
       "localizations" : {
-        "de" : { "stringUnit" : { "state" : "translated", "value" : "Kamerazugriff verweigert" } },
-        "en" : { "stringUnit" : { "state" : "translated", "value" : "Camera access denied" } },
-        "es" : { "stringUnit" : { "state" : "translated", "value" : "Acceso a la cámara denegado" } },
-        "fr" : { "stringUnit" : { "state" : "translated", "value" : "Accès à la caméra refusé" } },
-        "it" : { "stringUnit" : { "state" : "translated", "value" : "Accesso alla fotocamera negato" } },
-        "nl" : { "stringUnit" : { "state" : "translated", "value" : "Camera toegang geweigerd" } },
-        "pl" : { "stringUnit" : { "state" : "translated", "value" : "Odmowa dostępu do aparatu" } },
-        "pt" : { "stringUnit" : { "state" : "translated", "value" : "Acesso à câmara negado" } }
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kamerazugriff verweigert"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Camera access denied"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Acceso a la cámara denegado"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Accès à la caméra refusé"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Accesso alla fotocamera negato"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Camera toegang geweigerd"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Odmowa dostępu do aparatu"
+          }
+        },
+        "pt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Acesso à câmara negado"
+          }
+        }
       }
     },
     "error.camera_restricted" : {
       "localizations" : {
-        "de" : { "stringUnit" : { "state" : "translated", "value" : "Kamerazugriff eingeschränkt" } },
-        "en" : { "stringUnit" : { "state" : "translated", "value" : "Camera access restricted" } },
-        "es" : { "stringUnit" : { "state" : "translated", "value" : "Acceso a la cámara restringido" } },
-        "fr" : { "stringUnit" : { "state" : "translated", "value" : "Accès à la caméra restreint" } },
-        "it" : { "stringUnit" : { "state" : "translated", "value" : "Accesso alla fotocamera limitato" } },
-        "nl" : { "stringUnit" : { "state" : "translated", "value" : "Camera toegang beperkt" } },
-        "pl" : { "stringUnit" : { "state" : "translated", "value" : "Dostęp do aparatu ograniczony" } },
-        "pt" : { "stringUnit" : { "state" : "translated", "value" : "Acesso à câmara restrito" } }
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kamerazugriff eingeschränkt"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Camera access restricted"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Acceso a la cámara restringido"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Accès à la caméra restreint"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Accesso alla fotocamera limitato"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Camera toegang beperkt"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dostęp do aparatu ograniczony"
+          }
+        },
+        "pt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Acesso à câmara restrito"
+          }
+        }
       }
     },
     "error.camera_unavailable" : {
       "localizations" : {
-        "de" : { "stringUnit" : { "state" : "translated", "value" : "Kamera nicht verfügbar" } },
-        "en" : { "stringUnit" : { "state" : "translated", "value" : "Camera unavailable" } },
-        "es" : { "stringUnit" : { "state" : "translated", "value" : "Cámara no disponible" } },
-        "fr" : { "stringUnit" : { "state" : "translated", "value" : "Caméra non disponible" } },
-        "it" : { "stringUnit" : { "state" : "translated", "value" : "Fotocamera non disponibile" } },
-        "nl" : { "stringUnit" : { "state" : "translated", "value" : "Camera niet beschikbaar" } },
-        "pl" : { "stringUnit" : { "state" : "translated", "value" : "Aparat niedostępny" } },
-        "pt" : { "stringUnit" : { "state" : "translated", "value" : "Câmara indisponível" } }
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kamera nicht verfügbar"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Camera unavailable"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cámara no disponible"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Caméra non disponible"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fotocamera non disponibile"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Camera niet beschikbaar"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aparat niedostępny"
+          }
+        },
+        "pt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Câmara indisponível"
+          }
+        }
+      }
+    },
+    "error.cancelled" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Abgebrochen"
+          }
+        }
+      }
+    },
+    "error.decoding_failed" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dekodierung fehlgeschlagen"
+          }
+        }
+      }
+    },
+    "error.delete_failed" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Löschen fehlgeschlagen"
+          }
+        }
+      }
+    },
+    "error.fetch_failed" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Abrufen fehlgeschlagen"
+          }
+        }
+      }
+    },
+    "error.http_error %lld" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "HTTP-Fehler %lld"
+          }
+        }
       }
     },
     "error.invalid_barcode" : {
       "localizations" : {
-        "de" : { "stringUnit" : { "state" : "translated", "value" : "Ungültiger Barcode" } },
-        "en" : { "stringUnit" : { "state" : "translated", "value" : "Invalid barcode" } },
-        "es" : { "stringUnit" : { "state" : "translated", "value" : "Código de barras inválido" } },
-        "fr" : { "stringUnit" : { "state" : "translated", "value" : "Code-barres invalide" } },
-        "it" : { "stringUnit" : { "state" : "translated", "value" : "Codice a barre non valido" } },
-        "nl" : { "stringUnit" : { "state" : "translated", "value" : "Ongeldige barcode" } },
-        "pl" : { "stringUnit" : { "state" : "translated", "value" : "Nieprawidłowy kod kreskowy" } },
-        "pt" : { "stringUnit" : { "state" : "translated", "value" : "Código de barras inválido" } }
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ungültiger Barcode"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Invalid barcode"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Código de barras inválido"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Code-barres invalide"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Codice a barre non valido"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ongeldige barcode"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nieprawidłowy kod kreskowy"
+          }
+        },
+        "pt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Código de barras inválido"
+          }
+        }
+      }
+    },
+    "error.invalid_response" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ungültige Antwort"
+          }
+        }
+      }
+    },
+    "error.invalid_url" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ungültige URL"
+          }
+        }
+      }
+    },
+    "error.migration_failed" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Migration fehlgeschlagen"
+          }
+        }
       }
     },
     "error.network_unavailable" : {
       "localizations" : {
-        "de" : { "stringUnit" : { "state" : "translated", "value" : "Keine Internetverbindung" } },
-        "en" : { "stringUnit" : { "state" : "translated", "value" : "No internet connection" } },
-        "es" : { "stringUnit" : { "state" : "translated", "value" : "Sin conexión a internet" } },
-        "fr" : { "stringUnit" : { "state" : "translated", "value" : "Pas de connexion internet" } },
-        "it" : { "stringUnit" : { "state" : "translated", "value" : "Nessuna connessione internet" } },
-        "nl" : { "stringUnit" : { "state" : "translated", "value" : "Geen internetverbinding" } },
-        "pl" : { "stringUnit" : { "state" : "translated", "value" : "Brak połączenia z internetem" } },
-        "pt" : { "stringUnit" : { "state" : "translated", "value" : "Sem ligação à internet" } }
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Keine Internetverbindung"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No internet connection"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sin conexión a internet"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pas de connexion internet"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nessuna connessione internet"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Geen internetverbinding"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Brak połączenia z internetem"
+          }
+        },
+        "pt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sem ligação à internet"
+          }
+        }
       }
     },
     "error.product_not_found" : {
       "localizations" : {
-        "de" : { "stringUnit" : { "state" : "translated", "value" : "Produkt nicht gefunden" } },
-        "en" : { "stringUnit" : { "state" : "translated", "value" : "Product not found" } },
-        "es" : { "stringUnit" : { "state" : "translated", "value" : "Producto no encontrado" } },
-        "fr" : { "stringUnit" : { "state" : "translated", "value" : "Produit non trouvé" } },
-        "it" : { "stringUnit" : { "state" : "translated", "value" : "Prodotto non trovato" } },
-        "nl" : { "stringUnit" : { "state" : "translated", "value" : "Product niet gevonden" } },
-        "pl" : { "stringUnit" : { "state" : "translated", "value" : "Produkt nie znaleziony" } },
-        "pt" : { "stringUnit" : { "state" : "translated", "value" : "Produto não encontrado" } }
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Produkt nicht gefunden"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Product not found"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Producto no encontrado"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Produit non trouvé"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Prodotto non trovato"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Product niet gevonden"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Produkt nie znaleziony"
+          }
+        },
+        "pt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Produto não encontrado"
+          }
+        }
+      }
+    },
+    "error.rate_limit" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Anfragelimit erreicht. Bitte warten."
+          }
+        }
+      }
+    },
+    "error.save_failed" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Speichern fehlgeschlagen"
+          }
+        }
+      }
+    },
+    "error.server_error" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Serverfehler"
+          }
+        }
       }
     },
     "error.suggestion.camera_access" : {
       "localizations" : {
-        "de" : { "stringUnit" : { "state" : "translated", "value" : "Gehen Sie zu Einstellungen > Scanora > Kamera, um den Zugriff zu aktivieren." } },
-        "en" : { "stringUnit" : { "state" : "translated", "value" : "Go to Settings > Scanora > Camera to enable access." } },
-        "es" : { "stringUnit" : { "state" : "translated", "value" : "Vaya a Configuración > Scanora > Cámara para habilitar el acceso." } },
-        "fr" : { "stringUnit" : { "state" : "translated", "value" : "Allez dans Réglages > Scanora > Appareil photo pour activer l'accès." } },
-        "it" : { "stringUnit" : { "state" : "translated", "value" : "Vai su Impostazioni > Scanora > Fotocamera per abilitare l'accesso." } },
-        "nl" : { "stringUnit" : { "state" : "translated", "value" : "Ga naar Instellingen > Scanora > Camera om toegang in te schakelen." } },
-        "pl" : { "stringUnit" : { "state" : "translated", "value" : "Przejdź do Ustawienia > Scanora > Aparat, aby włączyć dostęp." } },
-        "pt" : { "stringUnit" : { "state" : "translated", "value" : "Vá a Definições > Scanora > Câmara para ativar o acesso." } }
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gehen Sie zu Einstellungen > Scanora > Kamera, um den Zugriff zu aktivieren."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Go to Settings > Scanora > Camera to enable access."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vaya a Configuración > Scanora > Cámara para habilitar el acceso."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Allez dans Réglages > Scanora > Appareil photo pour activer l'accès."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vai su Impostazioni > Scanora > Fotocamera per abilitare l'accesso."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ga naar Instellingen > Scanora > Camera om toegang in te schakelen."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Przejdź do Ustawienia > Scanora > Aparat, aby włączyć dostęp."
+          }
+        },
+        "pt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vá a Definições > Scanora > Câmara para ativar o acesso."
+          }
+        }
       }
     },
     "error.suggestion.network_unavailable" : {
       "localizations" : {
-        "de" : { "stringUnit" : { "state" : "translated", "value" : "Überprüfen Sie Ihre Internetverbindung und versuchen Sie es erneut." } },
-        "en" : { "stringUnit" : { "state" : "translated", "value" : "Check your internet connection and try again." } },
-        "es" : { "stringUnit" : { "state" : "translated", "value" : "Verifique su conexión a internet e intente de nuevo." } },
-        "fr" : { "stringUnit" : { "state" : "translated", "value" : "Vérifiez votre connexion internet et réessayez." } },
-        "it" : { "stringUnit" : { "state" : "translated", "value" : "Controlla la connessione internet e riprova." } },
-        "nl" : { "stringUnit" : { "state" : "translated", "value" : "Controleer uw internetverbinding en probeer opnieuw." } },
-        "pl" : { "stringUnit" : { "state" : "translated", "value" : "Sprawdź połączenie internetowe i spróbuj ponownie." } },
-        "pt" : { "stringUnit" : { "state" : "translated", "value" : "Verifique a sua ligação à internet e tente novamente." } }
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Überprüfen Sie Ihre Internetverbindung und versuchen Sie es erneut."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Check your internet connection and try again."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Verifique su conexión a internet e intente de nuevo."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vérifiez votre connexion internet et réessayez."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Controlla la connessione internet e riprova."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Controleer uw internetverbinding en probeer opnieuw."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sprawdź połączenie internetowe i spróbuj ponownie."
+          }
+        },
+        "pt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Verifique a sua ligação à internet e tente novamente."
+          }
+        }
       }
     },
     "error.suggestion.product_not_found" : {
       "localizations" : {
-        "de" : { "stringUnit" : { "state" : "translated", "value" : "Dieses Produkt ist noch nicht in der Open Food Facts Datenbank. Sie können es hinzufügen!" } },
-        "en" : { "stringUnit" : { "state" : "translated", "value" : "This product is not yet in the Open Food Facts database. You can add it!" } },
-        "es" : { "stringUnit" : { "state" : "translated", "value" : "Este producto aún no está en la base de datos de Open Food Facts. ¡Puedes añadirlo!" } },
-        "fr" : { "stringUnit" : { "state" : "translated", "value" : "Ce produit n'est pas encore dans la base Open Food Facts. Vous pouvez l'ajouter !" } },
-        "it" : { "stringUnit" : { "state" : "translated", "value" : "Questo prodotto non è ancora nel database Open Food Facts. Puoi aggiungerlo!" } },
-        "nl" : { "stringUnit" : { "state" : "translated", "value" : "Dit product staat nog niet in de Open Food Facts database. U kunt het toevoegen!" } },
-        "pl" : { "stringUnit" : { "state" : "translated", "value" : "Ten produkt nie jest jeszcze w bazie Open Food Facts. Możesz go dodać!" } },
-        "pt" : { "stringUnit" : { "state" : "translated", "value" : "Este produto ainda não está na base de dados Open Food Facts. Pode adicioná-lo!" } }
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dieses Produkt ist noch nicht in der Open Food Facts Datenbank. Sie können es hinzufügen!"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "This product is not yet in the Open Food Facts database. You can add it!"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Este producto aún no está en la base de datos de Open Food Facts. ¡Puedes añadirlo!"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ce produit n'est pas encore dans la base Open Food Facts. Vous pouvez l'ajouter !"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Questo prodotto non è ancora nel database Open Food Facts. Puoi aggiungerlo!"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dit product staat nog niet in de Open Food Facts database. U kunt het toevoegen!"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ten produkt nie jest jeszcze w bazie Open Food Facts. Możesz go dodać!"
+          }
+        },
+        "pt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Este produto ainda não está na base de dados Open Food Facts. Pode adicioná-lo!"
+          }
+        }
+      }
+    },
+    "error.suggestion.rate_limit" : {
+
+    },
+    "error.suggestion.server_error" : {
+
+    },
+    "error.suggestion.timeout" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Der Server antwortet nicht. Bitte versuchen Sie es später erneut."
+          }
+        }
+      }
+    },
+    "error.timeout" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zeitüberschreitung"
+          }
+        }
+      }
+    },
+    "error.torch_unavailable" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Blitz nicht verfügbar"
+          }
+        }
+      }
+    },
+    "error.unknown" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Unbekannter Fehler"
+          }
+        }
+      }
+    },
+    "Espanol" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Spanisch"
+          }
+        }
+      }
+    },
+    "Excellent data quality" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ausgezeichnete Datenqualität"
+          }
+        }
+      }
+    },
+    "Extract Text" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Text extrahieren"
+          }
+        }
+      }
+    },
+    "Extracted text:\n\n%@..." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Extrahierter Text:\n\n%@..."
+          }
+        }
+      }
+    },
+    "Fair data quality" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ausreichende Datenqualität"
+          }
+        }
+      }
+    },
+    "Favorite" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Favorit"
+          }
+        }
+      }
+    },
+    "Francais" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Französisch"
+          }
+        }
+      }
+    },
+    "Full product details are no longer cached" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vollständige Produktdetails sind nicht mehr zwischengespeichert"
+          }
+        }
+      }
+    },
+    "Go to Settings > Scanora > Camera to enable access." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gehen Sie zu Einstellungen > Scanora > Kamera, um den Zugriff zu aktivieren."
+          }
+        }
+      }
+    },
+    "Good data quality" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gute Datenqualität"
+          }
+        }
+      }
+    },
+    "Haptic Feedback" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Haptisches Feedback"
+          }
+        }
       }
     },
     "History" : {
       "localizations" : {
-        "de" : { "stringUnit" : { "state" : "translated", "value" : "Verlauf" } },
-        "es" : { "stringUnit" : { "state" : "translated", "value" : "Historial" } },
-        "fr" : { "stringUnit" : { "state" : "translated", "value" : "Historique" } },
-        "it" : { "stringUnit" : { "state" : "translated", "value" : "Cronologia" } },
-        "nl" : { "stringUnit" : { "state" : "translated", "value" : "Geschiedenis" } },
-        "pl" : { "stringUnit" : { "state" : "translated", "value" : "Historia" } },
-        "pt" : { "stringUnit" : { "state" : "translated", "value" : "Histórico" } }
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Verlauf"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Historial"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Historique"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cronologia"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Geschiedenis"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Historia"
+          }
+        },
+        "pt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Histórico"
+          }
+        }
+      }
+    },
+    "Image upload failed: %@" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bild-Upload fehlgeschlagen: %@"
+          }
+        }
       }
     },
     "Ingredients" : {
       "localizations" : {
-        "de" : { "stringUnit" : { "state" : "translated", "value" : "Zutaten" } },
-        "es" : { "stringUnit" : { "state" : "translated", "value" : "Ingredientes" } },
-        "fr" : { "stringUnit" : { "state" : "translated", "value" : "Ingrédients" } },
-        "it" : { "stringUnit" : { "state" : "translated", "value" : "Ingredienti" } },
-        "nl" : { "stringUnit" : { "state" : "translated", "value" : "Ingrediënten" } },
-        "pl" : { "stringUnit" : { "state" : "translated", "value" : "Składniki" } },
-        "pt" : { "stringUnit" : { "state" : "translated", "value" : "Ingredientes" } }
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zutaten"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ingredientes"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ingrédients"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ingredienti"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ingrediënten"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Składniki"
+          }
+        },
+        "pt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ingredientes"
+          }
+        }
+      }
+    },
+    "Invalid barcode format" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ungültiges Barcode-Format"
+          }
+        }
+      }
+    },
+    "Italiano" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Italienisch"
+          }
+        }
+      }
+    },
+    "Labels (e.g., Organic, Vegan)" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Labels (z.B. Bio, Vegan)"
+          }
+        }
+      }
+    },
+    "Language" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sprache"
+          }
+        }
+      }
+    },
+    "Look Up" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nachschlagen"
+          }
+        }
       }
     },
     "Looking up product..." : {
       "localizations" : {
-        "de" : { "stringUnit" : { "state" : "translated", "value" : "Produkt wird gesucht..." } },
-        "es" : { "stringUnit" : { "state" : "translated", "value" : "Buscando producto..." } },
-        "fr" : { "stringUnit" : { "state" : "translated", "value" : "Recherche du produit..." } },
-        "it" : { "stringUnit" : { "state" : "translated", "value" : "Ricerca prodotto..." } },
-        "nl" : { "stringUnit" : { "state" : "translated", "value" : "Product zoeken..." } },
-        "pl" : { "stringUnit" : { "state" : "translated", "value" : "Szukanie produktu..." } },
-        "pt" : { "stringUnit" : { "state" : "translated", "value" : "A procurar produto..." } }
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Produkt wird gesucht..."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Buscando producto..."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Recherche du produit..."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ricerca prodotto..."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Product zoeken..."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Szukanie produktu..."
+          }
+        },
+        "pt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "A procurar produto..."
+          }
+        }
+      }
+    },
+    "Manual Entry" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Manuelle Eingabe"
+          }
+        }
       }
     },
     "May contain traces of" : {
       "localizations" : {
-        "de" : { "stringUnit" : { "state" : "translated", "value" : "Kann Spuren enthalten von" } },
-        "es" : { "stringUnit" : { "state" : "translated", "value" : "Puede contener trazas de" } },
-        "fr" : { "stringUnit" : { "state" : "translated", "value" : "Peut contenir des traces de" } },
-        "it" : { "stringUnit" : { "state" : "translated", "value" : "Può contenere tracce di" } },
-        "nl" : { "stringUnit" : { "state" : "translated", "value" : "Kan sporen bevatten van" } },
-        "pl" : { "stringUnit" : { "state" : "translated", "value" : "Może zawierać śladowe ilości" } },
-        "pt" : { "stringUnit" : { "state" : "translated", "value" : "Pode conter vestígios de" } }
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kann Spuren enthalten von"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Puede contener trazas de"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Peut contenir des traces de"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Può contenere tracce di"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kan sporen bevatten van"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Może zawierać śladowe ilości"
+          }
+        },
+        "pt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pode conter vestígios de"
+          }
+        }
+      }
+    },
+    "No health scores available" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Keine Gesundheitsbewertungen verfügbar"
+          }
+        }
+      }
+    },
+    "No ingredients information available" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Keine Zutateninformationen verfügbar"
+          }
+        }
+      }
+    },
+    "No known allergens" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Keine bekannten Allergene"
+          }
+        }
+      }
+    },
+    "No nutritional information available" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Keine Nährwertinformationen verfügbar"
+          }
+        }
+      }
+    },
+    "No products found for \"%@\"" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Keine Produkte gefunden für \"%@\""
+          }
+        }
+      }
+    },
+    "No Results" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Keine Ergebnisse"
+          }
+        }
+      }
+    },
+    "No Scans Yet" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Noch keine Scans"
+          }
+        }
+      }
+    },
+    "NOVA %lld" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "NOVA %lld"
+          }
+        }
       }
     },
     "nova.description.1" : {
       "localizations" : {
-        "de" : { "stringUnit" : { "state" : "translated", "value" : "Unverarbeitete oder minimal verarbeitete Lebensmittel" } },
-        "en" : { "stringUnit" : { "state" : "translated", "value" : "Unprocessed or minimally processed foods" } },
-        "es" : { "stringUnit" : { "state" : "translated", "value" : "Alimentos no procesados o mínimamente procesados" } },
-        "fr" : { "stringUnit" : { "state" : "translated", "value" : "Aliments non transformés ou peu transformés" } },
-        "it" : { "stringUnit" : { "state" : "translated", "value" : "Alimenti non trasformati o minimamente trasformati" } },
-        "nl" : { "stringUnit" : { "state" : "translated", "value" : "Onbewerkte of minimaal bewerkte voedingsmiddelen" } },
-        "pl" : { "stringUnit" : { "state" : "translated", "value" : "Żywność nieprzetworzona lub minimalnie przetworzona" } },
-        "pt" : { "stringUnit" : { "state" : "translated", "value" : "Alimentos não processados ou minimamente processados" } }
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Unverarbeitete oder minimal verarbeitete Lebensmittel"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Unprocessed or minimally processed foods"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Alimentos no procesados o mínimamente procesados"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aliments non transformés ou peu transformés"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Alimenti non trasformati o minimamente trasformati"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Onbewerkte of minimaal bewerkte voedingsmiddelen"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Żywność nieprzetworzona lub minimalnie przetworzona"
+          }
+        },
+        "pt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Alimentos não processados ou minimamente processados"
+          }
+        }
       }
     },
     "nova.description.2" : {
       "localizations" : {
-        "de" : { "stringUnit" : { "state" : "translated", "value" : "Verarbeitete kulinarische Zutaten" } },
-        "en" : { "stringUnit" : { "state" : "translated", "value" : "Processed culinary ingredients" } },
-        "es" : { "stringUnit" : { "state" : "translated", "value" : "Ingredientes culinarios procesados" } },
-        "fr" : { "stringUnit" : { "state" : "translated", "value" : "Ingrédients culinaires transformés" } },
-        "it" : { "stringUnit" : { "state" : "translated", "value" : "Ingredienti culinari trasformati" } },
-        "nl" : { "stringUnit" : { "state" : "translated", "value" : "Bewerkte culinaire ingrediënten" } },
-        "pl" : { "stringUnit" : { "state" : "translated", "value" : "Przetworzone składniki kulinarne" } },
-        "pt" : { "stringUnit" : { "state" : "translated", "value" : "Ingredientes culinários processados" } }
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Verarbeitete kulinarische Zutaten"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Processed culinary ingredients"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ingredientes culinarios procesados"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ingrédients culinaires transformés"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ingredienti culinari trasformati"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bewerkte culinaire ingrediënten"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Przetworzone składniki kulinarne"
+          }
+        },
+        "pt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ingredientes culinários processados"
+          }
+        }
       }
     },
     "nova.description.3" : {
       "localizations" : {
-        "de" : { "stringUnit" : { "state" : "translated", "value" : "Verarbeitete Lebensmittel" } },
-        "en" : { "stringUnit" : { "state" : "translated", "value" : "Processed foods" } },
-        "es" : { "stringUnit" : { "state" : "translated", "value" : "Alimentos procesados" } },
-        "fr" : { "stringUnit" : { "state" : "translated", "value" : "Aliments transformés" } },
-        "it" : { "stringUnit" : { "state" : "translated", "value" : "Alimenti trasformati" } },
-        "nl" : { "stringUnit" : { "state" : "translated", "value" : "Bewerkte voedingsmiddelen" } },
-        "pl" : { "stringUnit" : { "state" : "translated", "value" : "Żywność przetworzona" } },
-        "pt" : { "stringUnit" : { "state" : "translated", "value" : "Alimentos processados" } }
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Verarbeitete Lebensmittel"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Processed foods"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Alimentos procesados"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aliments transformés"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Alimenti trasformati"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bewerkte voedingsmiddelen"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Żywność przetworzona"
+          }
+        },
+        "pt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Alimentos processados"
+          }
+        }
       }
     },
     "nova.description.4" : {
       "localizations" : {
-        "de" : { "stringUnit" : { "state" : "translated", "value" : "Hochverarbeitete Lebensmittel" } },
-        "en" : { "stringUnit" : { "state" : "translated", "value" : "Ultra-processed foods" } },
-        "es" : { "stringUnit" : { "state" : "translated", "value" : "Alimentos ultraprocesados" } },
-        "fr" : { "stringUnit" : { "state" : "translated", "value" : "Aliments ultra-transformés" } },
-        "it" : { "stringUnit" : { "state" : "translated", "value" : "Alimenti ultra-trasformati" } },
-        "nl" : { "stringUnit" : { "state" : "translated", "value" : "Ultrabewerkte voedingsmiddelen" } },
-        "pl" : { "stringUnit" : { "state" : "translated", "value" : "Żywność ultra-przetworzona" } },
-        "pt" : { "stringUnit" : { "state" : "translated", "value" : "Alimentos ultra-processados" } }
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hochverarbeitete Lebensmittel"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ultra-processed foods"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Alimentos ultraprocesados"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aliments ultra-transformés"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Alimenti ultra-trasformati"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ultrabewerkte voedingsmiddelen"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Żywność ultra-przetworzona"
+          }
+        },
+        "pt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Alimentos ultra-processados"
+          }
+        }
       }
     },
     "nova.group.1" : {
       "localizations" : {
-        "de" : { "stringUnit" : { "state" : "translated", "value" : "Unverarbeitet" } },
-        "en" : { "stringUnit" : { "state" : "translated", "value" : "Unprocessed" } },
-        "es" : { "stringUnit" : { "state" : "translated", "value" : "Sin procesar" } },
-        "fr" : { "stringUnit" : { "state" : "translated", "value" : "Non transformé" } },
-        "it" : { "stringUnit" : { "state" : "translated", "value" : "Non trasformato" } },
-        "nl" : { "stringUnit" : { "state" : "translated", "value" : "Onbewerkt" } },
-        "pl" : { "stringUnit" : { "state" : "translated", "value" : "Nieprzetworzony" } },
-        "pt" : { "stringUnit" : { "state" : "translated", "value" : "Não processado" } }
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Unverarbeitet"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Unprocessed"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sin procesar"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Non transformé"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Non trasformato"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Onbewerkt"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nieprzetworzony"
+          }
+        },
+        "pt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Não processado"
+          }
+        }
       }
     },
     "nova.group.2" : {
       "localizations" : {
-        "de" : { "stringUnit" : { "state" : "translated", "value" : "Verarbeitete Zutaten" } },
-        "en" : { "stringUnit" : { "state" : "translated", "value" : "Processed ingredients" } },
-        "es" : { "stringUnit" : { "state" : "translated", "value" : "Ingredientes procesados" } },
-        "fr" : { "stringUnit" : { "state" : "translated", "value" : "Ingrédients transformés" } },
-        "it" : { "stringUnit" : { "state" : "translated", "value" : "Ingredienti trasformati" } },
-        "nl" : { "stringUnit" : { "state" : "translated", "value" : "Bewerkte ingrediënten" } },
-        "pl" : { "stringUnit" : { "state" : "translated", "value" : "Przetworzone składniki" } },
-        "pt" : { "stringUnit" : { "state" : "translated", "value" : "Ingredientes processados" } }
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Verarbeitete Zutaten"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Processed ingredients"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ingredientes procesados"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ingrédients transformés"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ingredienti trasformati"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bewerkte ingrediënten"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Przetworzone składniki"
+          }
+        },
+        "pt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ingredientes processados"
+          }
+        }
       }
     },
     "nova.group.3" : {
       "localizations" : {
-        "de" : { "stringUnit" : { "state" : "translated", "value" : "Verarbeitet" } },
-        "en" : { "stringUnit" : { "state" : "translated", "value" : "Processed" } },
-        "es" : { "stringUnit" : { "state" : "translated", "value" : "Procesado" } },
-        "fr" : { "stringUnit" : { "state" : "translated", "value" : "Transformé" } },
-        "it" : { "stringUnit" : { "state" : "translated", "value" : "Trasformato" } },
-        "nl" : { "stringUnit" : { "state" : "translated", "value" : "Bewerkt" } },
-        "pl" : { "stringUnit" : { "state" : "translated", "value" : "Przetworzony" } },
-        "pt" : { "stringUnit" : { "state" : "translated", "value" : "Processado" } }
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Verarbeitet"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Processed"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Procesado"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Transformé"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Trasformato"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bewerkt"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Przetworzony"
+          }
+        },
+        "pt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Processado"
+          }
+        }
       }
     },
     "nova.group.4" : {
       "localizations" : {
-        "de" : { "stringUnit" : { "state" : "translated", "value" : "Hochverarbeitet" } },
-        "en" : { "stringUnit" : { "state" : "translated", "value" : "Ultra-processed" } },
-        "es" : { "stringUnit" : { "state" : "translated", "value" : "Ultraprocesado" } },
-        "fr" : { "stringUnit" : { "state" : "translated", "value" : "Ultra-transformé" } },
-        "it" : { "stringUnit" : { "state" : "translated", "value" : "Ultra-trasformato" } },
-        "nl" : { "stringUnit" : { "state" : "translated", "value" : "Ultrabewerkt" } },
-        "pl" : { "stringUnit" : { "state" : "translated", "value" : "Ultra-przetworzony" } },
-        "pt" : { "stringUnit" : { "state" : "translated", "value" : "Ultra-processado" } }
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hochverarbeitet"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ultra-processed"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ultraprocesado"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ultra-transformé"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ultra-trasformato"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ultrabewerkt"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ultra-przetworzony"
+          }
+        },
+        "pt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ultra-processado"
+          }
+        }
       }
     },
-    "Nutrition" : {
+    "Nutri-Score" : {
+
+    },
+    "Nutri-Score A: Excellent nutritional quality" : {
       "localizations" : {
-        "de" : { "stringUnit" : { "state" : "translated", "value" : "Nährwerte" } },
-        "es" : { "stringUnit" : { "state" : "translated", "value" : "Nutrición" } },
-        "fr" : { "stringUnit" : { "state" : "translated", "value" : "Nutrition" } },
-        "it" : { "stringUnit" : { "state" : "translated", "value" : "Valori nutrizionali" } },
-        "nl" : { "stringUnit" : { "state" : "translated", "value" : "Voedingswaarde" } },
-        "pl" : { "stringUnit" : { "state" : "translated", "value" : "Wartości odżywcze" } },
-        "pt" : { "stringUnit" : { "state" : "translated", "value" : "Nutrição" } }
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nutri-Score A: Ausgezeichnete Nährwertqualität"
+          }
+        }
+      }
+    },
+    "Nutri-Score B: Good nutritional quality" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nutri-Score B: Gute Nährwertqualität"
+          }
+        }
+      }
+    },
+    "Nutri-Score C: Average nutritional quality" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nutri-Score C: Durchschnittliche Nährwertqualität"
+          }
+        }
+      }
+    },
+    "Nutri-Score D: Poor nutritional quality" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nutri-Score D: Schlechte Nährwertqualität"
+          }
+        }
+      }
+    },
+    "Nutri-Score E: Very poor nutritional quality" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nutri-Score E: Sehr schlechte Nährwertqualität"
+          }
+        }
       }
     },
     "nutriscore.description.a" : {
       "localizations" : {
-        "de" : { "stringUnit" : { "state" : "translated", "value" : "Ausgezeichnete Nährwertqualität" } },
-        "en" : { "stringUnit" : { "state" : "translated", "value" : "Excellent nutritional quality" } },
-        "es" : { "stringUnit" : { "state" : "translated", "value" : "Excelente calidad nutricional" } },
-        "fr" : { "stringUnit" : { "state" : "translated", "value" : "Excellente qualité nutritionnelle" } },
-        "it" : { "stringUnit" : { "state" : "translated", "value" : "Eccellente qualità nutrizionale" } },
-        "nl" : { "stringUnit" : { "state" : "translated", "value" : "Uitstekende voedingskwaliteit" } },
-        "pl" : { "stringUnit" : { "state" : "translated", "value" : "Doskonała jakość odżywcza" } },
-        "pt" : { "stringUnit" : { "state" : "translated", "value" : "Excelente qualidade nutricional" } }
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ausgezeichnete Nährwertqualität"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Excellent nutritional quality"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Excelente calidad nutricional"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Excellente qualité nutritionnelle"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Eccellente qualità nutrizionale"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Uitstekende voedingskwaliteit"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Doskonała jakość odżywcza"
+          }
+        },
+        "pt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Excelente qualidade nutricional"
+          }
+        }
       }
     },
     "nutriscore.description.b" : {
       "localizations" : {
-        "de" : { "stringUnit" : { "state" : "translated", "value" : "Gute Nährwertqualität" } },
-        "en" : { "stringUnit" : { "state" : "translated", "value" : "Good nutritional quality" } },
-        "es" : { "stringUnit" : { "state" : "translated", "value" : "Buena calidad nutricional" } },
-        "fr" : { "stringUnit" : { "state" : "translated", "value" : "Bonne qualité nutritionnelle" } },
-        "it" : { "stringUnit" : { "state" : "translated", "value" : "Buona qualità nutrizionale" } },
-        "nl" : { "stringUnit" : { "state" : "translated", "value" : "Goede voedingskwaliteit" } },
-        "pl" : { "stringUnit" : { "state" : "translated", "value" : "Dobra jakość odżywcza" } },
-        "pt" : { "stringUnit" : { "state" : "translated", "value" : "Boa qualidade nutricional" } }
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gute Nährwertqualität"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Good nutritional quality"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Buena calidad nutricional"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bonne qualité nutritionnelle"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Buona qualità nutrizionale"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Goede voedingskwaliteit"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dobra jakość odżywcza"
+          }
+        },
+        "pt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Boa qualidade nutricional"
+          }
+        }
       }
     },
     "nutriscore.description.c" : {
       "localizations" : {
-        "de" : { "stringUnit" : { "state" : "translated", "value" : "Durchschnittliche Nährwertqualität" } },
-        "en" : { "stringUnit" : { "state" : "translated", "value" : "Average nutritional quality" } },
-        "es" : { "stringUnit" : { "state" : "translated", "value" : "Calidad nutricional media" } },
-        "fr" : { "stringUnit" : { "state" : "translated", "value" : "Qualité nutritionnelle moyenne" } },
-        "it" : { "stringUnit" : { "state" : "translated", "value" : "Qualità nutrizionale media" } },
-        "nl" : { "stringUnit" : { "state" : "translated", "value" : "Gemiddelde voedingskwaliteit" } },
-        "pl" : { "stringUnit" : { "state" : "translated", "value" : "Średnia jakość odżywcza" } },
-        "pt" : { "stringUnit" : { "state" : "translated", "value" : "Qualidade nutricional média" } }
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Durchschnittliche Nährwertqualität"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Average nutritional quality"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Calidad nutricional media"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Qualité nutritionnelle moyenne"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Qualità nutrizionale media"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gemiddelde voedingskwaliteit"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Średnia jakość odżywcza"
+          }
+        },
+        "pt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Qualidade nutricional média"
+          }
+        }
       }
     },
     "nutriscore.description.d" : {
       "localizations" : {
-        "de" : { "stringUnit" : { "state" : "translated", "value" : "Schlechte Nährwertqualität" } },
-        "en" : { "stringUnit" : { "state" : "translated", "value" : "Poor nutritional quality" } },
-        "es" : { "stringUnit" : { "state" : "translated", "value" : "Calidad nutricional baja" } },
-        "fr" : { "stringUnit" : { "state" : "translated", "value" : "Qualité nutritionnelle médiocre" } },
-        "it" : { "stringUnit" : { "state" : "translated", "value" : "Scarsa qualità nutrizionale" } },
-        "nl" : { "stringUnit" : { "state" : "translated", "value" : "Slechte voedingskwaliteit" } },
-        "pl" : { "stringUnit" : { "state" : "translated", "value" : "Niska jakość odżywcza" } },
-        "pt" : { "stringUnit" : { "state" : "translated", "value" : "Qualidade nutricional baixa" } }
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Schlechte Nährwertqualität"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Poor nutritional quality"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Calidad nutricional baja"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Qualité nutritionnelle médiocre"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Scarsa qualità nutrizionale"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Slechte voedingskwaliteit"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Niska jakość odżywcza"
+          }
+        },
+        "pt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Qualidade nutricional baixa"
+          }
+        }
       }
     },
     "nutriscore.description.e" : {
       "localizations" : {
-        "de" : { "stringUnit" : { "state" : "translated", "value" : "Sehr schlechte Nährwertqualität" } },
-        "en" : { "stringUnit" : { "state" : "translated", "value" : "Very poor nutritional quality" } },
-        "es" : { "stringUnit" : { "state" : "translated", "value" : "Calidad nutricional muy baja" } },
-        "fr" : { "stringUnit" : { "state" : "translated", "value" : "Très mauvaise qualité nutritionnelle" } },
-        "it" : { "stringUnit" : { "state" : "translated", "value" : "Pessima qualità nutrizionale" } },
-        "nl" : { "stringUnit" : { "state" : "translated", "value" : "Zeer slechte voedingskwaliteit" } },
-        "pl" : { "stringUnit" : { "state" : "translated", "value" : "Bardzo niska jakość odżywcza" } },
-        "pt" : { "stringUnit" : { "state" : "translated", "value" : "Qualidade nutricional muito baixa" } }
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sehr schlechte Nährwertqualität"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Very poor nutritional quality"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Calidad nutricional muy baja"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Très mauvaise qualité nutritionnelle"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pessima qualità nutrizionale"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zeer slechte voedingskwaliteit"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bardzo niska jakość odżywcza"
+          }
+        },
+        "pt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Qualidade nutricional muito baixa"
+          }
+        }
+      }
+    },
+    "Nutrition" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nährwerte"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nutrición"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nutrition"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Valori nutrizionali"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Voedingswaarde"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wartości odżywcze"
+          }
+        },
+        "pt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nutrição"
+          }
+        }
+      }
+    },
+    "Nutritional Information" : {
+
+    },
+    "OCR Result" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "OCR-Ergebnis"
+          }
+        }
+      }
+    },
+    "OK" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "OK"
+          }
+        }
+      }
+    },
+    "Open Food Facts" : {
+
+    },
+    "Open Settings" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Einstellungen öffnen"
+          }
+        }
+      }
+    },
+    "Origin" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Herkunft"
+          }
+        }
+      }
+    },
+    "Origin country" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Herkunftsland"
+          }
+        }
       }
     },
     "Overview" : {
       "localizations" : {
-        "de" : { "stringUnit" : { "state" : "translated", "value" : "Übersicht" } },
-        "es" : { "stringUnit" : { "state" : "translated", "value" : "Resumen" } },
-        "fr" : { "stringUnit" : { "state" : "translated", "value" : "Aperçu" } },
-        "it" : { "stringUnit" : { "state" : "translated", "value" : "Panoramica" } },
-        "nl" : { "stringUnit" : { "state" : "translated", "value" : "Overzicht" } },
-        "pl" : { "stringUnit" : { "state" : "translated", "value" : "Przegląd" } },
-        "pt" : { "stringUnit" : { "state" : "translated", "value" : "Visão geral" } }
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Übersicht"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Resumen"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aperçu"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Panoramica"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Overzicht"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Przegląd"
+          }
+        },
+        "pt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Visão geral"
+          }
+        }
+      }
+    },
+    "Paused" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pausiert"
+          }
+        }
+      }
+    },
+    "Per 100g" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pro 100g"
+          }
+        }
+      }
+    },
+    "Photos" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fotos"
+          }
+        }
+      }
+    },
+    "Photos help verify product information and are displayed to other users." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fotos helfen bei der Überprüfung der Produktinformationen und werden anderen Nutzern angezeigt."
+          }
+        }
+      }
+    },
+    "Please enter a product name" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bitte geben Sie einen Produktnamen ein"
+          }
+        }
       }
     },
     "Point at a barcode" : {
       "localizations" : {
-        "de" : { "stringUnit" : { "state" : "translated", "value" : "Auf einen Barcode zeigen" } },
-        "es" : { "stringUnit" : { "state" : "translated", "value" : "Apunta al código de barras" } },
-        "fr" : { "stringUnit" : { "state" : "translated", "value" : "Pointez vers un code-barres" } },
-        "it" : { "stringUnit" : { "state" : "translated", "value" : "Punta verso un codice a barre" } },
-        "nl" : { "stringUnit" : { "state" : "translated", "value" : "Richt op een barcode" } },
-        "pl" : { "stringUnit" : { "state" : "translated", "value" : "Skieruj na kod kreskowy" } },
-        "pt" : { "stringUnit" : { "state" : "translated", "value" : "Aponte para um código de barras" } }
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Auf einen Barcode zeigen"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Apunta al código de barras"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pointez vers un code-barres"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Punta verso un codice a barre"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Richt op een barcode"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skieruj na kod kreskowy"
+          }
+        },
+        "pt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aponte para um código de barras"
+          }
+        }
+      }
+    },
+    "Poor data quality" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Schlechte Datenqualität"
+          }
+        }
+      }
+    },
+    "Portugues" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Portugiesisch"
+          }
+        }
+      }
+    },
+    "Product" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Produkt"
+          }
+        }
+      }
+    },
+    "Product Information" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Produktinformationen"
+          }
+        }
+      }
+    },
+    "Product name" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Produktname"
+          }
+        }
+      }
+    },
+    "Product name is required" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Produktname ist erforderlich"
+          }
+        }
+      }
+    },
+    "Product name is required. Other fields are optional but helpful." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Produktname ist erforderlich. Andere Felder sind optional, aber hilfreich."
+          }
+        }
+      }
+    },
+    "Product not found" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Produkt nicht gefunden"
+          }
+        }
+      }
+    },
+    "Products you scan will appear here" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gescannte Produkte werden hier angezeigt"
+          }
+        }
+      }
+    },
+    "Quantity (e.g., 500g, 1L)" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Menge (z.B. 500g, 1L)"
+          }
+        }
       }
     },
     "Scan" : {
       "localizations" : {
-        "de" : { "stringUnit" : { "state" : "translated", "value" : "Scannen" } },
-        "es" : { "stringUnit" : { "state" : "translated", "value" : "Escanear" } },
-        "fr" : { "stringUnit" : { "state" : "translated", "value" : "Scanner" } },
-        "it" : { "stringUnit" : { "state" : "translated", "value" : "Scansiona" } },
-        "nl" : { "stringUnit" : { "state" : "translated", "value" : "Scannen" } },
-        "pl" : { "stringUnit" : { "state" : "translated", "value" : "Skanuj" } },
-        "pt" : { "stringUnit" : { "state" : "translated", "value" : "Digitalizar" } }
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Scannen"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Escanear"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Scanner"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Scansiona"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Scannen"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skanuj"
+          }
+        },
+        "pt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Digitalizar"
+          }
+        }
       }
+    },
+    "Scanner" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Scanner"
+          }
+        }
+      }
+    },
+    "Scanora needs camera access to scan barcodes on food products." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Scanora benötigt Kamerazugriff, um Barcodes auf Lebensmittelprodukten zu scannen."
+          }
+        }
+      }
+    },
+    "Scanora needs camera access to scan barcodes." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Scanora benötigt Kamerazugriff, um Barcodes zu scannen."
+          }
+        }
+      }
+    },
+    "Scanora uses Open Food Facts, a free and open database of food products from around the world." : {
+
     },
     "Search" : {
       "localizations" : {
-        "de" : { "stringUnit" : { "state" : "translated", "value" : "Suchen" } },
-        "es" : { "stringUnit" : { "state" : "translated", "value" : "Buscar" } },
-        "fr" : { "stringUnit" : { "state" : "translated", "value" : "Rechercher" } },
-        "it" : { "stringUnit" : { "state" : "translated", "value" : "Cerca" } },
-        "nl" : { "stringUnit" : { "state" : "translated", "value" : "Zoeken" } },
-        "pl" : { "stringUnit" : { "state" : "translated", "value" : "Szukaj" } },
-        "pt" : { "stringUnit" : { "state" : "translated", "value" : "Pesquisar" } }
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Suchen"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Buscar"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rechercher"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cerca"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zoeken"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Szukaj"
+          }
+        },
+        "pt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pesquisar"
+          }
+        }
+      }
+    },
+    "Search by product name, brand, or category" : {
+
+    },
+    "Search Error" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Suchfehler"
+          }
+        }
+      }
+    },
+    "Search history" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Suchverlauf"
+          }
+        }
+      }
+    },
+    "Search Products" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Produkte suchen"
+          }
+        }
+      }
+    },
+    "Search products by name or brand" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Produkte nach Name oder Marke suchen"
+          }
+        }
+      }
+    },
+    "Searching..." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Suche..."
+          }
+        }
+      }
+    },
+    "Section" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Abschnitt"
+          }
+        }
       }
     },
     "Settings" : {
       "localizations" : {
-        "de" : { "stringUnit" : { "state" : "translated", "value" : "Einstellungen" } },
-        "es" : { "stringUnit" : { "state" : "translated", "value" : "Configuración" } },
-        "fr" : { "stringUnit" : { "state" : "translated", "value" : "Paramètres" } },
-        "it" : { "stringUnit" : { "state" : "translated", "value" : "Impostazioni" } },
-        "nl" : { "stringUnit" : { "state" : "translated", "value" : "Instellingen" } },
-        "pl" : { "stringUnit" : { "state" : "translated", "value" : "Ustawienia" } },
-        "pt" : { "stringUnit" : { "state" : "translated", "value" : "Definições" } }
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Einstellungen"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Configuración"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Paramètres"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Impostazioni"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Instellingen"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ustawienia"
+          }
+        },
+        "pt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Definições"
+          }
+        }
+      }
+    },
+    "Source Code" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Quellcode"
+          }
+        }
+      }
+    },
+    "Stores (e.g., Continente, Pingo Doce)" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Geschäfte (z.B. Aldi, Lidl)"
+          }
+        }
+      }
+    },
+    "Submit" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Absenden"
+          }
+        }
+      }
+    },
+    "Success!" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Erfolg!"
+          }
+        }
+      }
+    },
+    "System Default" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Systemstandard"
+          }
+        }
+      }
+    },
+    "Take Photo" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Foto aufnehmen"
+          }
+        }
+      }
+    },
+    "Thank you for contributing to Open Food Facts! Your submission will be reviewed and made available to everyone." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vielen Dank für Ihren Beitrag zu Open Food Facts! Ihr Eintrag wird überprüft und für alle verfügbar gemacht."
+          }
+        }
+      }
+    },
+    "This affects product information display. Restart may be required." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dies beeinflusst die Anzeige der Produktinformationen. Ein Neustart kann erforderlich sein."
+          }
+        }
+      }
+    },
+    "This product isn't in the Open Food Facts database yet. Would you like to add it?" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dieses Produkt ist noch nicht in der Open Food Facts Datenbank. Möchten Sie es hinzufügen?"
+          }
+        }
+      }
+    },
+    "This will delete all your scan history. This action cannot be undone." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dies löscht Ihren gesamten Scanverlauf. Diese Aktion kann nicht rückgängig gemacht werden."
+          }
+        }
+      }
+    },
+    "This will remove all cached product data. Products will need to be re-downloaded when scanned." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dies entfernt alle zwischengespeicherten Produktdaten. Produkte müssen beim Scannen erneut heruntergeladen werden."
+          }
+        }
       }
     },
     "Today" : {
       "localizations" : {
-        "de" : { "stringUnit" : { "state" : "translated", "value" : "Heute" } },
-        "es" : { "stringUnit" : { "state" : "translated", "value" : "Hoy" } },
-        "fr" : { "stringUnit" : { "state" : "translated", "value" : "Aujourd'hui" } },
-        "it" : { "stringUnit" : { "state" : "translated", "value" : "Oggi" } },
-        "nl" : { "stringUnit" : { "state" : "translated", "value" : "Vandaag" } },
-        "pl" : { "stringUnit" : { "state" : "translated", "value" : "Dzisiaj" } },
-        "pt" : { "stringUnit" : { "state" : "translated", "value" : "Hoje" } }
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Heute"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hoy"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aujourd'hui"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Oggi"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vandaag"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dzisiaj"
+          }
+        },
+        "pt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hoje"
+          }
+        }
+      }
+    },
+    "Traces" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Spuren"
+          }
+        }
+      }
+    },
+    "Try Again" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Erneut versuchen"
+          }
+        }
+      }
+    },
+    "Turn off flashlight" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Taschenlampe ausschalten"
+          }
+        }
+      }
+    },
+    "Turn on flashlight" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Taschenlampe einschalten"
+          }
+        }
+      }
+    },
+    "Unfavorite" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aus Favoriten entfernen"
+          }
+        }
       }
     },
     "Unknown product" : {
       "localizations" : {
-        "de" : { "stringUnit" : { "state" : "translated", "value" : "Unbekanntes Produkt" } },
-        "es" : { "stringUnit" : { "state" : "translated", "value" : "Producto desconocido" } },
-        "fr" : { "stringUnit" : { "state" : "translated", "value" : "Produit inconnu" } },
-        "it" : { "stringUnit" : { "state" : "translated", "value" : "Prodotto sconosciuto" } },
-        "nl" : { "stringUnit" : { "state" : "translated", "value" : "Onbekend product" } },
-        "pl" : { "stringUnit" : { "state" : "translated", "value" : "Nieznany produkt" } },
-        "pt" : { "stringUnit" : { "state" : "translated", "value" : "Produto desconhecido" } }
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Unbekanntes Produkt"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Producto desconocido"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Produit inconnu"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Prodotto sconosciuto"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Onbekend product"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nieznany produkt"
+          }
+        },
+        "pt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Produto desconhecido"
+          }
+        }
+      }
+    },
+    "Upload failed: %@" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Upload fehlgeschlagen: %@"
+          }
+        }
+      }
+    },
+    "Use This Text" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Diesen Text verwenden"
+          }
+        }
+      }
+    },
+    "Usually 8 or 13 digits" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Normalerweise 8 oder 13 Ziffern"
+          }
+        }
+      }
+    },
+    "Version" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Version"
+          }
+        }
       }
     },
     "Yesterday" : {
       "localizations" : {
-        "de" : { "stringUnit" : { "state" : "translated", "value" : "Gestern" } },
-        "es" : { "stringUnit" : { "state" : "translated", "value" : "Ayer" } },
-        "fr" : { "stringUnit" : { "state" : "translated", "value" : "Hier" } },
-        "it" : { "stringUnit" : { "state" : "translated", "value" : "Ieri" } },
-        "nl" : { "stringUnit" : { "state" : "translated", "value" : "Gisteren" } },
-        "pl" : { "stringUnit" : { "state" : "translated", "value" : "Wczoraj" } },
-        "pt" : { "stringUnit" : { "state" : "translated", "value" : "Ontem" } }
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gestern"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ayer"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hier"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ieri"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gisteren"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wczoraj"
+          }
+        },
+        "pt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ontem"
+          }
+        }
       }
     }
   },
