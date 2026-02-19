@@ -29,8 +29,9 @@ final class ScanHistoryService: ScanHistoryServiceProtocol {
 
     func addScan(product: Product) async throws {
         // Find or create cached product
+        let barcodeToFind = product.barcode
         let cacheDescriptor = FetchDescriptor<CachedProduct>(
-            predicate: #Predicate { $0.barcode == product.barcode }
+            predicate: #Predicate { $0.barcode == barcodeToFind }
         )
         let cachedProduct = try modelContext.fetch(cacheDescriptor).first
 
@@ -104,8 +105,9 @@ final class ScanHistoryService: ScanHistoryServiceProtocol {
     // MARK: - Update
 
     func toggleFavorite(scanId: UUID) async throws {
+        let idToFind = scanId
         let descriptor = FetchDescriptor<ScanHistory>(
-            predicate: #Predicate { $0.id == scanId }
+            predicate: #Predicate { $0.id == idToFind }
         )
 
         guard let scan = try modelContext.fetch(descriptor).first else {
@@ -117,8 +119,9 @@ final class ScanHistoryService: ScanHistoryServiceProtocol {
     }
 
     func updateNotes(scanId: UUID, notes: String?) async throws {
+        let idToFind = scanId
         let descriptor = FetchDescriptor<ScanHistory>(
-            predicate: #Predicate { $0.id == scanId }
+            predicate: #Predicate { $0.id == idToFind }
         )
 
         guard let scan = try modelContext.fetch(descriptor).first else {
@@ -132,8 +135,9 @@ final class ScanHistoryService: ScanHistoryServiceProtocol {
     // MARK: - Delete
 
     func deleteScan(scanId: UUID) async throws {
+        let idToFind = scanId
         let descriptor = FetchDescriptor<ScanHistory>(
-            predicate: #Predicate { $0.id == scanId }
+            predicate: #Predicate { $0.id == idToFind }
         )
 
         guard let scan = try modelContext.fetch(descriptor).first else {

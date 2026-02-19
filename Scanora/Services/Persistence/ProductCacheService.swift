@@ -51,8 +51,9 @@ final class ProductCacheService: ProductCacheServiceProtocol {
     // MARK: - Save
 
     func saveProduct(_ product: Product) async throws {
+        let barcodeToFind = product.barcode
         let descriptor = FetchDescriptor<CachedProduct>(
-            predicate: #Predicate { $0.barcode == product.barcode }
+            predicate: #Predicate { $0.barcode == barcodeToFind }
         )
 
         if let existingProduct = try modelContext.fetch(descriptor).first {
