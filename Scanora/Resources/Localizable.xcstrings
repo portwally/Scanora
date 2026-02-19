@@ -2377,12 +2377,13 @@
     },
     "Carbohydrates" : {
       "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Kohlenhydrate"
-          }
-        }
+        "de" : { "stringUnit" : { "state" : "translated", "value" : "Kohlenhydrate" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Hidratos de carbono" } },
+        "fr" : { "stringUnit" : { "state" : "translated", "value" : "Glucides" } },
+        "it" : { "stringUnit" : { "state" : "translated", "value" : "Carboidrati" } },
+        "nl" : { "stringUnit" : { "state" : "translated", "value" : "Koolhydraten" } },
+        "pl" : { "stringUnit" : { "state" : "translated", "value" : "Węglowodany" } },
+        "pt" : { "stringUnit" : { "state" : "translated", "value" : "Hidratos de carbono" } }
       }
     },
     "Data Quality" : {
@@ -2473,22 +2474,24 @@
     },
     "Energy" : {
       "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Energie"
-          }
-        }
+        "de" : { "stringUnit" : { "state" : "translated", "value" : "Energie" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Energía" } },
+        "fr" : { "stringUnit" : { "state" : "translated", "value" : "Énergie" } },
+        "it" : { "stringUnit" : { "state" : "translated", "value" : "Energia" } },
+        "nl" : { "stringUnit" : { "state" : "translated", "value" : "Energie" } },
+        "pl" : { "stringUnit" : { "state" : "translated", "value" : "Energia" } },
+        "pt" : { "stringUnit" : { "state" : "translated", "value" : "Energia" } }
       }
     },
     "Excellent - complete product information" : {
       "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Ausgezeichnet - vollständige Produktinformationen"
-          }
-        }
+        "de" : { "stringUnit" : { "state" : "translated", "value" : "Ausgezeichnet - vollständige Produktinformationen" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Excelente - información completa del producto" } },
+        "fr" : { "stringUnit" : { "state" : "translated", "value" : "Excellent - informations produit complètes" } },
+        "it" : { "stringUnit" : { "state" : "translated", "value" : "Eccellente - informazioni complete sul prodotto" } },
+        "nl" : { "stringUnit" : { "state" : "translated", "value" : "Uitstekend - volledige productinformatie" } },
+        "pl" : { "stringUnit" : { "state" : "translated", "value" : "Doskonała - pełne informacje o produkcie" } },
+        "pt" : { "stringUnit" : { "state" : "translated", "value" : "Excelente - informações completas do produto" } }
       }
     },
     "Eco %@" : {
@@ -2496,12 +2499,13 @@
     },
     "Eco" : {
       "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Öko"
-          }
-        }
+        "de" : { "stringUnit" : { "state" : "translated", "value" : "Öko" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Eco" } },
+        "fr" : { "stringUnit" : { "state" : "translated", "value" : "Éco" } },
+        "it" : { "stringUnit" : { "state" : "translated", "value" : "Eco" } },
+        "nl" : { "stringUnit" : { "state" : "translated", "value" : "Eco" } },
+        "pl" : { "stringUnit" : { "state" : "translated", "value" : "Eko" } },
+        "pt" : { "stringUnit" : { "state" : "translated", "value" : "Eco" } }
       }
     },
     "Eco-Score" : {
@@ -3342,42 +3346,46 @@
     },
     "Fair - some information missing" : {
       "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Befriedigend - einige Informationen fehlen"
-          }
-        }
+        "de" : { "stringUnit" : { "state" : "translated", "value" : "Befriedigend - einige Informationen fehlen" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Regular - falta información" } },
+        "fr" : { "stringUnit" : { "state" : "translated", "value" : "Moyen - certaines informations manquantes" } },
+        "it" : { "stringUnit" : { "state" : "translated", "value" : "Discreto - alcune informazioni mancanti" } },
+        "nl" : { "stringUnit" : { "state" : "translated", "value" : "Redelijk - sommige informatie ontbreekt" } },
+        "pl" : { "stringUnit" : { "state" : "translated", "value" : "Dostateczna - brakuje niektórych informacji" } },
+        "pt" : { "stringUnit" : { "state" : "translated", "value" : "Razoável - algumas informações em falta" } }
       }
     },
     "Fat" : {
       "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Fett"
-          }
-        }
+        "de" : { "stringUnit" : { "state" : "translated", "value" : "Fett" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Grasas" } },
+        "fr" : { "stringUnit" : { "state" : "translated", "value" : "Matières grasses" } },
+        "it" : { "stringUnit" : { "state" : "translated", "value" : "Grassi" } },
+        "nl" : { "stringUnit" : { "state" : "translated", "value" : "Vetten" } },
+        "pl" : { "stringUnit" : { "state" : "translated", "value" : "Tłuszcz" } },
+        "pt" : { "stringUnit" : { "state" : "translated", "value" : "Gorduras" } }
       }
     },
     "Favorites" : {
       "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Favoriten"
-          }
-        }
+        "de" : { "stringUnit" : { "state" : "translated", "value" : "Favoriten" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Favoritos" } },
+        "fr" : { "stringUnit" : { "state" : "translated", "value" : "Favoris" } },
+        "it" : { "stringUnit" : { "state" : "translated", "value" : "Preferiti" } },
+        "nl" : { "stringUnit" : { "state" : "translated", "value" : "Favorieten" } },
+        "pl" : { "stringUnit" : { "state" : "translated", "value" : "Ulubione" } },
+        "pt" : { "stringUnit" : { "state" : "translated", "value" : "Favoritos" } }
       }
     },
     "Fiber" : {
       "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Ballaststoffe"
-          }
-        }
+        "de" : { "stringUnit" : { "state" : "translated", "value" : "Ballaststoffe" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Fibra" } },
+        "fr" : { "stringUnit" : { "state" : "translated", "value" : "Fibres" } },
+        "it" : { "stringUnit" : { "state" : "translated", "value" : "Fibre" } },
+        "nl" : { "stringUnit" : { "state" : "translated", "value" : "Vezels" } },
+        "pl" : { "stringUnit" : { "state" : "translated", "value" : "Błonnik" } },
+        "pt" : { "stringUnit" : { "state" : "translated", "value" : "Fibra" } }
       }
     },
     "Francais" : {
@@ -3422,12 +3430,13 @@
     },
     "Good - most information available" : {
       "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Gut - die meisten Informationen verfügbar"
-          }
-        }
+        "de" : { "stringUnit" : { "state" : "translated", "value" : "Gut - die meisten Informationen verfügbar" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Bueno - la mayoría de información disponible" } },
+        "fr" : { "stringUnit" : { "state" : "translated", "value" : "Bon - la plupart des informations disponibles" } },
+        "it" : { "stringUnit" : { "state" : "translated", "value" : "Buono - la maggior parte delle informazioni disponibili" } },
+        "nl" : { "stringUnit" : { "state" : "translated", "value" : "Goed - meeste informatie beschikbaar" } },
+        "pl" : { "stringUnit" : { "state" : "translated", "value" : "Dobra - większość informacji dostępna" } },
+        "pt" : { "stringUnit" : { "state" : "translated", "value" : "Bom - maioria das informações disponíveis" } }
       }
     },
     "Haptic Feedback" : {
@@ -3776,22 +3785,24 @@
     },
     "  of which saturates" : {
       "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "  davon gesättigte Fettsäuren"
-          }
-        }
+        "de" : { "stringUnit" : { "state" : "translated", "value" : "  davon gesättigte Fettsäuren" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "  de las cuales saturadas" } },
+        "fr" : { "stringUnit" : { "state" : "translated", "value" : "  dont acides gras saturés" } },
+        "it" : { "stringUnit" : { "state" : "translated", "value" : "  di cui acidi grassi saturi" } },
+        "nl" : { "stringUnit" : { "state" : "translated", "value" : "  waarvan verzadigd" } },
+        "pl" : { "stringUnit" : { "state" : "translated", "value" : "  w tym kwasy tłuszczowe nasycone" } },
+        "pt" : { "stringUnit" : { "state" : "translated", "value" : "  das quais saturadas" } }
       }
     },
     "  of which sugars" : {
       "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "  davon Zucker"
-          }
-        }
+        "de" : { "stringUnit" : { "state" : "translated", "value" : "  davon Zucker" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "  de los cuales azúcares" } },
+        "fr" : { "stringUnit" : { "state" : "translated", "value" : "  dont sucres" } },
+        "it" : { "stringUnit" : { "state" : "translated", "value" : "  di cui zuccheri" } },
+        "nl" : { "stringUnit" : { "state" : "translated", "value" : "  waarvan suikers" } },
+        "pl" : { "stringUnit" : { "state" : "translated", "value" : "  w tym cukry" } },
+        "pt" : { "stringUnit" : { "state" : "translated", "value" : "  dos quais açúcares" } }
       }
     },
     "NOVA %lld" : {
@@ -4581,22 +4592,24 @@
     },
     "No nutritional information available" : {
       "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Keine Nährwertangaben verfügbar"
-          }
-        }
+        "de" : { "stringUnit" : { "state" : "translated", "value" : "Keine Nährwertangaben verfügbar" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Información nutricional no disponible" } },
+        "fr" : { "stringUnit" : { "state" : "translated", "value" : "Informations nutritionnelles non disponibles" } },
+        "it" : { "stringUnit" : { "state" : "translated", "value" : "Informazioni nutrizionali non disponibili" } },
+        "nl" : { "stringUnit" : { "state" : "translated", "value" : "Geen voedingswaarde-informatie beschikbaar" } },
+        "pl" : { "stringUnit" : { "state" : "translated", "value" : "Brak informacji o wartościach odżywczych" } },
+        "pt" : { "stringUnit" : { "state" : "translated", "value" : "Informação nutricional não disponível" } }
       }
     },
     "Nutritional Information" : {
       "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Nährwertinformationen"
-          }
-        }
+        "de" : { "stringUnit" : { "state" : "translated", "value" : "Nährwertinformationen" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Información nutricional" } },
+        "fr" : { "stringUnit" : { "state" : "translated", "value" : "Informations nutritionnelles" } },
+        "it" : { "stringUnit" : { "state" : "translated", "value" : "Informazioni nutrizionali" } },
+        "nl" : { "stringUnit" : { "state" : "translated", "value" : "Voedingswaarde" } },
+        "pl" : { "stringUnit" : { "state" : "translated", "value" : "Informacje o wartościach odżywczych" } },
+        "pt" : { "stringUnit" : { "state" : "translated", "value" : "Informação nutricional" } }
       }
     },
     "OCR Result" : {
@@ -4876,32 +4889,35 @@
     },
     "Processing" : {
       "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Verarbeitung"
-          }
-        }
+        "de" : { "stringUnit" : { "state" : "translated", "value" : "Verarbeitung" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Procesamiento" } },
+        "fr" : { "stringUnit" : { "state" : "translated", "value" : "Transformation" } },
+        "it" : { "stringUnit" : { "state" : "translated", "value" : "Lavorazione" } },
+        "nl" : { "stringUnit" : { "state" : "translated", "value" : "Bewerking" } },
+        "pl" : { "stringUnit" : { "state" : "translated", "value" : "Przetworzenie" } },
+        "pt" : { "stringUnit" : { "state" : "translated", "value" : "Processamento" } }
       }
     },
     "Poor - limited information available" : {
       "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Mangelhaft - begrenzte Informationen verfügbar"
-          }
-        }
+        "de" : { "stringUnit" : { "state" : "translated", "value" : "Mangelhaft - begrenzte Informationen verfügbar" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Pobre - información limitada disponible" } },
+        "fr" : { "stringUnit" : { "state" : "translated", "value" : "Faible - informations limitées disponibles" } },
+        "it" : { "stringUnit" : { "state" : "translated", "value" : "Scarso - informazioni limitate disponibili" } },
+        "nl" : { "stringUnit" : { "state" : "translated", "value" : "Slecht - beperkte informatie beschikbaar" } },
+        "pl" : { "stringUnit" : { "state" : "translated", "value" : "Słaba - ograniczone informacje dostępne" } },
+        "pt" : { "stringUnit" : { "state" : "translated", "value" : "Fraco - informação limitada disponível" } }
       }
     },
     "Proteins" : {
       "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Eiweiß"
-          }
-        }
+        "de" : { "stringUnit" : { "state" : "translated", "value" : "Eiweiß" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Proteínas" } },
+        "fr" : { "stringUnit" : { "state" : "translated", "value" : "Protéines" } },
+        "it" : { "stringUnit" : { "state" : "translated", "value" : "Proteine" } },
+        "nl" : { "stringUnit" : { "state" : "translated", "value" : "Eiwitten" } },
+        "pl" : { "stringUnit" : { "state" : "translated", "value" : "Białko" } },
+        "pt" : { "stringUnit" : { "state" : "translated", "value" : "Proteínas" } }
       }
     },
     "Products you scan will appear here" : {
@@ -4983,12 +4999,13 @@
     },
     "Salt" : {
       "localizations" : {
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Salz"
-          }
-        }
+        "de" : { "stringUnit" : { "state" : "translated", "value" : "Salz" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Sal" } },
+        "fr" : { "stringUnit" : { "state" : "translated", "value" : "Sel" } },
+        "it" : { "stringUnit" : { "state" : "translated", "value" : "Sale" } },
+        "nl" : { "stringUnit" : { "state" : "translated", "value" : "Zout" } },
+        "pl" : { "stringUnit" : { "state" : "translated", "value" : "Sól" } },
+        "pt" : { "stringUnit" : { "state" : "translated", "value" : "Sal" } }
       }
     },
     "Scan Barcode" : {
