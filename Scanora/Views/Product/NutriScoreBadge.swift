@@ -184,18 +184,33 @@ struct HealthScoresRow: View {
     let novaGroup: NovaGroup?
     let ecoScore: EcoScore?
 
+    private let badgeHeight: CGFloat = 36
+
     var body: some View {
         HStack(spacing: 8) {
             if let nutriScore = nutriScore {
                 NutriScoreBadge(score: nutriScore, size: .small)
+                    .frame(height: badgeHeight)
             }
 
             if let novaGroup = novaGroup {
-                NovaGroupBadge(group: novaGroup, compact: true)
+                UniformBadge(
+                    icon: novaGroup.icon,
+                    title: String(localized: "Processing"),
+                    value: "\(novaGroup.rawValue)",
+                    color: novaGroup.color
+                )
+                .frame(height: badgeHeight)
             }
 
             if let ecoScore = ecoScore {
-                EcoScoreBadge(score: ecoScore, compact: true)
+                UniformBadge(
+                    icon: "leaf.circle.fill",
+                    title: String(localized: "Eco"),
+                    value: ecoScore.grade,
+                    color: ecoScore.color
+                )
+                .frame(height: badgeHeight)
             }
 
             if nutriScore == nil && novaGroup == nil && ecoScore == nil {
@@ -207,6 +222,33 @@ struct HealthScoresRow: View {
             Spacer()
         }
         .padding(.horizontal, 16)
+    }
+}
+
+// MARK: - Uniform Badge
+
+struct UniformBadge: View {
+    let icon: String
+    let title: String
+    let value: String
+    let color: Color
+
+    var body: some View {
+        HStack(spacing: 6) {
+            Image(systemName: icon)
+                .font(.subheadline)
+            VStack(alignment: .leading, spacing: 0) {
+                Text(title)
+                    .font(.system(size: 9))
+                Text(value)
+                    .font(.subheadline.bold())
+            }
+        }
+        .foregroundColor(.white)
+        .padding(.horizontal, 10)
+        .padding(.vertical, 4)
+        .background(color)
+        .clipShape(RoundedRectangle(cornerRadius: 8))
     }
 }
 

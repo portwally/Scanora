@@ -2461,6 +2461,19 @@
         }
       }
     },
+    "Eco %@" : {
+
+    },
+    "Eco" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Öko"
+          }
+        }
+      }
+    },
     "Eco-Score" : {
       "localizations" : {
         "de" : {
@@ -4743,6 +4756,16 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Produkt nicht gefunden"
+          }
+        }
+      }
+    },
+    "Processing" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Verarbeitung"
           }
         }
       }
