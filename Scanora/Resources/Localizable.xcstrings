@@ -2375,6 +2375,16 @@
         }
       }
     },
+    "Carbohydrates" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kohlenhydrate"
+          }
+        }
+      }
+    },
     "Data Quality" : {
       "localizations" : {
         "de" : {
@@ -2457,6 +2467,26 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Concluído"
+          }
+        }
+      }
+    },
+    "Energy" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Energie"
+          }
+        }
+      }
+    },
+    "Excellent - complete product information" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ausgezeichnet - vollständige Produktinformationen"
           }
         }
       }
@@ -3310,8 +3340,45 @@
         }
       }
     },
+    "Fair - some information missing" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Befriedigend - einige Informationen fehlen"
+          }
+        }
+      }
+    },
+    "Fat" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fett"
+          }
+        }
+      }
+    },
     "Favorites" : {
-
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Favoriten"
+          }
+        }
+      }
+    },
+    "Fiber" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ballaststoffe"
+          }
+        }
+      }
     },
     "Francais" : {
       "localizations" : {
@@ -3349,6 +3416,16 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Gute Datenqualität"
+          }
+        }
+      }
+    },
+    "Good - most information available" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gut - die meisten Informationen verfügbar"
           }
         }
       }
@@ -3693,6 +3770,26 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Noch keine Scans"
+          }
+        }
+      }
+    },
+    "  of which saturates" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "  davon gesättigte Fettsäuren"
+          }
+        }
+      }
+    },
+    "  of which sugars" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "  davon Zucker"
           }
         }
       }
@@ -4482,8 +4579,25 @@
         }
       }
     },
+    "No nutritional information available" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Keine Nährwertangaben verfügbar"
+          }
+        }
+      }
+    },
     "Nutritional Information" : {
-
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nährwertinformationen"
+          }
+        }
+      }
     },
     "OCR Result" : {
       "localizations" : {
@@ -4770,6 +4884,26 @@
         }
       }
     },
+    "Poor - limited information available" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mangelhaft - begrenzte Informationen verfügbar"
+          }
+        }
+      }
+    },
+    "Proteins" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Eiweiß"
+          }
+        }
+      }
+    },
     "Products you scan will appear here" : {
       "localizations" : {
         "de" : {
@@ -4843,6 +4977,16 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Digitalizar"
+          }
+        }
+      }
+    },
+    "Salt" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Salz"
           }
         }
       }

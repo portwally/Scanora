@@ -224,7 +224,7 @@ struct OverviewSection: View {
             // Categories
             if !product.categories.isEmpty {
                 VStack(alignment: .leading, spacing: 8) {
-                    Text("Categories")
+                    Text(String(localized: "Categories"))
                         .font(.subheadline.bold())
 
                     FlowLayout(spacing: 8) {
@@ -254,17 +254,17 @@ struct NutritionSection: View {
     var body: some View {
         if let nutriments = nutriments, nutriments.hasData {
             VStack(alignment: .leading, spacing: 12) {
-                Text("Nutritional Information")
+                Text(String(localized: "Nutritional Information"))
                     .font(.subheadline.bold())
 
-                Text("Per 100g")
+                Text(String(localized: "Per 100g"))
                     .font(.caption)
                     .foregroundColor(.secondary)
 
                 NutritionTable(nutriments: nutriments)
             }
         } else {
-            Text("No nutritional information available")
+            Text(String(localized: "No nutritional information available"))
                 .font(.subheadline)
                 .foregroundColor(.secondary)
         }
@@ -278,14 +278,14 @@ struct NutritionTable: View {
 
     var body: some View {
         VStack(spacing: 0) {
-            NutritionRow(label: "Energy", value: nutriments.energyDisplay ?? "-")
-            NutritionRow(label: "Fat", value: nutriments.formatValue(nutriments.fat))
-            NutritionRow(label: "  of which saturates", value: nutriments.formatValue(nutriments.saturatedFat), isIndented: true)
-            NutritionRow(label: "Carbohydrates", value: nutriments.formatValue(nutriments.carbohydrates))
-            NutritionRow(label: "  of which sugars", value: nutriments.formatValue(nutriments.sugars), isIndented: true)
-            NutritionRow(label: "Fiber", value: nutriments.formatValue(nutriments.fiber))
-            NutritionRow(label: "Proteins", value: nutriments.formatValue(nutriments.proteins))
-            NutritionRow(label: "Salt", value: nutriments.formatValue(nutriments.salt))
+            NutritionRow(label: String(localized: "Energy"), value: nutriments.energyDisplay ?? "-")
+            NutritionRow(label: String(localized: "Fat"), value: nutriments.formatValue(nutriments.fat))
+            NutritionRow(label: String(localized: "  of which saturates"), value: nutriments.formatValue(nutriments.saturatedFat), isIndented: true)
+            NutritionRow(label: String(localized: "Carbohydrates"), value: nutriments.formatValue(nutriments.carbohydrates))
+            NutritionRow(label: String(localized: "  of which sugars"), value: nutriments.formatValue(nutriments.sugars), isIndented: true)
+            NutritionRow(label: String(localized: "Fiber"), value: nutriments.formatValue(nutriments.fiber))
+            NutritionRow(label: String(localized: "Proteins"), value: nutriments.formatValue(nutriments.proteins))
+            NutritionRow(label: String(localized: "Salt"), value: nutriments.formatValue(nutriments.salt))
         }
         .background(Color(.systemBackground))
         .cornerRadius(12)
@@ -416,7 +416,7 @@ struct DataQualityView: View {
 
     var body: some View {
         VStack(alignment: .leading, spacing: 8) {
-            Text("Data Quality")
+            Text(String(localized: "Data Quality"))
                 .font(.subheadline.bold())
 
             HStack(spacing: 8) {
@@ -445,10 +445,10 @@ struct DataQualityView: View {
 
     private var qualityDescription: String {
         switch completeness {
-        case 0.8...: return "Excellent - complete product information"
-        case 0.6..<0.8: return "Good - most information available"
-        case 0.4..<0.6: return "Fair - some information missing"
-        default: return "Poor - limited information available"
+        case 0.8...: return String(localized: "Excellent - complete product information")
+        case 0.6..<0.8: return String(localized: "Good - most information available")
+        case 0.4..<0.6: return String(localized: "Fair - some information missing")
+        default: return String(localized: "Poor - limited information available")
         }
     }
 }
