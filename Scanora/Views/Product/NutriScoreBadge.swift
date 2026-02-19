@@ -84,8 +84,17 @@ struct NutriScoreBadgeCompact: View {
 struct NovaGroupBadge: View {
     let group: NovaGroup
     var size: NutriScoreBadge.BadgeSize = .medium
+    var compact: Bool = false
 
     var body: some View {
+        if compact {
+            compactBadge
+        } else {
+            fullBadge
+        }
+    }
+
+    private var fullBadge: some View {
         HStack(spacing: 6) {
             Image(systemName: group.icon)
                 .font(.system(size: size.fontSize * 0.8))
@@ -104,14 +113,38 @@ struct NovaGroupBadge: View {
         .clipShape(RoundedRectangle(cornerRadius: 8))
         .accessibilityElement(children: .combine)
     }
+
+    private var compactBadge: some View {
+        HStack(spacing: 4) {
+            Image(systemName: group.icon)
+                .font(.caption)
+            Text("NOVA \(group.rawValue)")
+                .font(.caption.bold())
+        }
+        .foregroundColor(.white)
+        .padding(.horizontal, 8)
+        .padding(.vertical, 6)
+        .background(group.color)
+        .clipShape(RoundedRectangle(cornerRadius: 8))
+        .accessibilityElement(children: .combine)
+    }
 }
 
 // MARK: - EcoScore Badge
 
 struct EcoScoreBadge: View {
     let score: EcoScore
+    var compact: Bool = false
 
     var body: some View {
+        if compact {
+            compactBadge
+        } else {
+            fullBadge
+        }
+    }
+
+    private var fullBadge: some View {
         HStack(spacing: 4) {
             Image(systemName: "leaf.circle.fill")
                 .font(.title3)
@@ -128,6 +161,20 @@ struct EcoScoreBadge: View {
         .background(score.color)
         .clipShape(RoundedRectangle(cornerRadius: 8))
     }
+
+    private var compactBadge: some View {
+        HStack(spacing: 4) {
+            Image(systemName: "leaf.circle.fill")
+                .font(.caption)
+            Text("Eco \(score.grade)")
+                .font(.caption.bold())
+        }
+        .foregroundColor(.white)
+        .padding(.horizontal, 8)
+        .padding(.vertical, 6)
+        .background(score.color)
+        .clipShape(RoundedRectangle(cornerRadius: 8))
+    }
 }
 
 // MARK: - Health Scores Row
@@ -138,29 +185,28 @@ struct HealthScoresRow: View {
     let ecoScore: EcoScore?
 
     var body: some View {
-        ScrollView(.horizontal, showsIndicators: false) {
-            HStack(spacing: 12) {
-                if let nutriScore = nutriScore {
-                    NutriScoreBadge(score: nutriScore, size: .small)
-                }
-
-                if let novaGroup = novaGroup {
-                    NovaGroupBadge(group: novaGroup, size: .small)
-                }
-
-                if let ecoScore = ecoScore {
-                    EcoScoreBadge(score: ecoScore)
-                }
-
-                if nutriScore == nil && novaGroup == nil && ecoScore == nil {
-                    Text("No health scores available")
-                        .font(.caption)
-                        .foregroundColor(.secondary)
-                }
+        HStack(spacing: 8) {
+            if let nutriScore = nutriScore {
+                NutriScoreBadge(score: nutriScore, size: .small)
             }
-            .padding(.horizontal, 16)
+
+            if let novaGroup = novaGroup {
+                NovaGroupBadge(group: novaGroup, compact: true)
+            }
+
+            if let ecoScore = ecoScore {
+                EcoScoreBadge(score: ecoScore, compact: true)
+            }
+
+            if nutriScore == nil && novaGroup == nil && ecoScore == nil {
+                Text("No health scores available")
+                    .font(.caption)
+                    .foregroundColor(.secondary)
+            }
+
+            Spacer()
         }
-        .scrollClipDisabled()
+        .padding(.horizontal, 16)
     }
 }
 

@@ -210,6 +210,7 @@ struct ProductHeaderView: View {
             Spacer()
         }
         .padding(.horizontal)
+        .padding(.top, 8)
     }
 }
 
